@@ -38,7 +38,9 @@ defmodule App.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:mariaex, "~> 0.8.1"}]
+     {:mariaex, "~> 0.8.1"},
+    #  {:formex, path: "../formex"}
+    ]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

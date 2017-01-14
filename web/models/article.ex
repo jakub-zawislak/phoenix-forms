@@ -15,4 +15,8 @@ defmodule App.Article do
     |> cast(params, [:name, :content, :category_id])
     |> validate_required([:name, :content, :category_id])
   end
+
+  def hi() do
+    @ecto_assocs
+  end
 end

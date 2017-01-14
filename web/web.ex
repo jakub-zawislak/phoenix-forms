@@ -36,6 +36,7 @@ defmodule App.Web do
 
       import App.Router.Helpers
       import App.Gettext
+      import Formex.Builder
     end
   end
 

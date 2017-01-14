@@ -10,6 +10,11 @@ defmodule App.ArticleController do
 
   def new(conn, _params) do
     changeset = Article.changeset(%Article{})
+
+    App.ArticleType
+    |> create_form(%Article{})
+    |> handle_request(%{})
+
     render(conn, "new.html", changeset: changeset)
   end
 

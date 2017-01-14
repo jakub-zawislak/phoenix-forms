@@ -20,13 +20,16 @@ config :app, App.Endpoint,
     patterns: [
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
-      ~r{web/views/.*(ex)$},
-      ~r{web/templates/.*(eex)$}
+      # ~r{web/views/.*(ex)$},
+      # ~r{web/templates/.*(eex)$}
+      ~r{lib/.*(ex)$},
+      ~r{web/.*(ex)$},
+      ~r{web/.*(ex)$}
     ]
   ]
 
 # Do not include metadata nor timestamps in development logs
-config :logger, :console, format: "[$level] $message\n"
+config :logger, :console, level: :info, format: "[$level] $message\n"
 
 # Set a higher stacktrace during development. Avoid configuring such
 # in production as building large stacktraces may be expensive.
