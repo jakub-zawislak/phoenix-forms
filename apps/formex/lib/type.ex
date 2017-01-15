@@ -4,7 +4,7 @@ defmodule Formex.Type do
 
   @repo Application.get_env(:formex, :repo)
 
-  def put_field(form, :entity, name, options) do
+  def put_field(form, :select, name, opts) do
 
     get_options = fn ->
       module = form.model.__schema__(:association, name).queryable
@@ -16,19 +16,29 @@ defmodule Formex.Type do
       @repo.all(query)
     end
 
+    name_id = name
+    |> Atom.to_string
+    |> Kernel.<>("_id")
+    |> String.to_atom
+
     field = %{
-      type: :entity,
+      name: name_id,
+      type: :select,
       value: Map.get(form.struct, name),
-      options: get_options.()
+      select_options: get_options.(),
+      required: Keyword.get(opts, :required, true)
     }
 
     put_field(form, field)
   end
 
-  def put_field(form, type, name, _options) do
+  def put_field(form, type, name, opts) do
+
     field = %{
+      name: name,
       type: type,
-      value: Map.get(form.struct, name)
+      value: Map.get(form.struct, name),
+      required: Keyword.get(opts, :required, true)
     }
 
     put_field(form, field)

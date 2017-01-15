@@ -23,7 +23,6 @@ config :app, App.Endpoint,
       # ~r{web/views/.*(ex)$},
       # ~r{web/templates/.*(eex)$}
       ~r{lib/.*(ex)$},
-      ~r{web/.*(ex)$},
       ~r{web/.*(ex)$}
     ]
   ]
