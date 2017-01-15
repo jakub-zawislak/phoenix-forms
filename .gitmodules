@@ -1,0 +1,4 @@
+[submodule "apps/formex"]
+	path = apps/formex
+	url = git@github.com:jakub-zawislak/formex.git
+	branch = master
