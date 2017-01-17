@@ -9,25 +9,24 @@ defmodule App.ArticleController do
   end
 
   def new(conn, _params) do
-    changeset = Article.changeset(%Article{})
 
-    App.ArticleType
+    form = App.ArticleType
     |> create_form(%Article{})
-    |> handle_request(%{})
 
-    render(conn, "new.html", changeset: changeset)
+    render(conn, "new.html", form: form)
   end
 
   def create(conn, %{"article" => article_params}) do
-    changeset = Article.changeset(%Article{}, article_params)
-
-    case Repo.insert(changeset) do
+    App.ArticleType
+    |> create_form(%Article{}, article_params)
+    |> insert_form
+    |> case do
       {:ok, _article} ->
         conn
         |> put_flash(:info, "Article created successfully.")
         |> redirect(to: article_path(conn, :index))
-      {:error, changeset} ->
-        render(conn, "new.html", changeset: changeset)
+      {:error, form} ->
+        render(conn, "new.html", form: form)
     end
   end
 

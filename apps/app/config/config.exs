@@ -23,7 +23,8 @@ config :logger, :console,
   metadata: [:request_id]
 
 config :formex,
-  repo: App.Repo
+  repo: App.Repo,
+  translate_error: &App.ErrorHelpers.translate_error/1
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

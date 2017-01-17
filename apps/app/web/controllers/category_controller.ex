@@ -9,20 +9,23 @@ defmodule App.CategoryController do
   end
 
   def new(conn, _params) do
-    changeset = Category.changeset(%Category{})
-    render(conn, "new.html", changeset: changeset)
+    form = App.CategoryType
+    |> create_form(%Category{})
+
+    render(conn, "new.html", form: form)
   end
 
   def create(conn, %{"category" => category_params}) do
-    changeset = Category.changeset(%Category{}, category_params)
-
-    case Repo.insert(changeset) do
+    App.CategoryType
+    |> create_form(%Category{}, category_params)
+    |> insert_form
+    |> case do
       {:ok, _category} ->
         conn
         |> put_flash(:info, "Category created successfully.")
         |> redirect(to: category_path(conn, :index))
-      {:error, changeset} ->
-        render(conn, "new.html", changeset: changeset)
+      {:error, form} ->
+        render(conn, "new.html", form: form)
     end
   end
 
