@@ -10,8 +10,7 @@ defmodule App.ArticleController do
 
   def new(conn, _params) do
 
-    form = App.ArticleType
-    |> create_form(%Article{})
+    form = create_form(App.ArticleType, %Article{})
 
     render(conn, "new.html", form: form)
   end
@@ -37,15 +36,19 @@ defmodule App.ArticleController do
 
   def edit(conn, %{"id" => id}) do
     article = Repo.get!(Article, id)
-    changeset = Article.changeset(article)
-    render(conn, "edit.html", article: article, changeset: changeset)
+
+    form = create_form(App.ArticleType, article)
+
+    render(conn, "edit.html", article: article, form: form)
   end
 
   def update(conn, %{"id" => id, "article" => article_params}) do
     article = Repo.get!(Article, id)
-    changeset = Article.changeset(article, article_params)
 
-    case Repo.update(changeset) do
+    App.ArticleType
+    |> create_form(article, article_params)
+    |> update_form
+    |> case do
       {:ok, article} ->
         conn
         |> put_flash(:info, "Article updated successfully.")
