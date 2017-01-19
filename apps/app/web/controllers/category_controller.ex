@@ -18,7 +18,7 @@ defmodule App.CategoryController do
   def create(conn, %{"category" => category_params}) do
     App.CategoryType
     |> create_form(%Category{}, category_params)
-    |> insert_form
+    |> insert_form_data
     |> case do
       {:ok, _category} ->
         conn

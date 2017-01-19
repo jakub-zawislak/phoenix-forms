@@ -8,8 +8,11 @@
     </div>
   <% end %>
 
-  <%= form_row f, :name %>
-  <%= form_row f, :category_id %>
+  <%# generate_fields f %>
+  <%= generate_fields_horizontal f %>
+  <%# form_row f, :name %>
+  <%# form_row f, :content %>
+  <%# form_row f, :category_id %>
 
   <div class="form-group">
     <%= submit "Submit", class: "btn btn-primary" %>

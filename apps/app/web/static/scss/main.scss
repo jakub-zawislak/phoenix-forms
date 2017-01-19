@@ -62,3 +62,14 @@ form.link, form.button {
     border-bottom: 0;
   }
 }
+
+//
+
+.required {
+  .control-label {
+    &:after {
+      content: '*';
+      margin: 0px 0px 0px 3px;
+    }
+  }
+}

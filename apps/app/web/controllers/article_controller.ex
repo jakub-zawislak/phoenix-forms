@@ -18,7 +18,7 @@ defmodule App.ArticleController do
   def create(conn, %{"article" => article_params}) do
     App.ArticleType
     |> create_form(%Article{}, article_params)
-    |> insert_form
+    |> insert_form_data
     |> case do
       {:ok, _article} ->
         conn
@@ -47,14 +47,14 @@ defmodule App.ArticleController do
 
     App.ArticleType
     |> create_form(article, article_params)
-    |> update_form
+    |> update_form_data
     |> case do
       {:ok, article} ->
         conn
         |> put_flash(:info, "Article updated successfully.")
         |> redirect(to: article_path(conn, :show, article))
-      {:error, changeset} ->
-        render(conn, "edit.html", article: article, changeset: changeset)
+      {:error, form} ->
+        render(conn, "edit.html", article: article, form: form)
     end
   end
 

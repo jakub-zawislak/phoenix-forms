@@ -4,6 +4,7 @@ defmodule App.Article do
   schema "articles" do
     field :name, :string
     field :content, :string
+    field :hidden, :boolean
 
     belongs_to :category, App.Category
 
