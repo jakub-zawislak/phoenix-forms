@@ -9,14 +9,14 @@ defmodule App.CategoryController do
   end
 
   def new(conn, _params) do
-    form = App.CategoryType
+    form = App.CategoryForm
     |> create_form(%Category{})
 
     render(conn, "new.html", form: form)
   end
 
   def create(conn, %{"category" => category_params}) do
-    App.CategoryType
+    App.CategoryForm
     |> create_form(%Category{}, category_params)
     |> insert_form_data
     |> case do
@@ -36,21 +36,23 @@ defmodule App.CategoryController do
 
   def edit(conn, %{"id" => id}) do
     category = Repo.get!(Category, id)
-    changeset = Category.changeset(category)
-    render(conn, "edit.html", category: category, changeset: changeset)
+    form = create_form(App.CategoryForm, category)
+    render(conn, "edit.html", category: category, form: form)
   end
 
   def update(conn, %{"id" => id, "category" => category_params}) do
     category = Repo.get!(Category, id)
-    changeset = Category.changeset(category, category_params)
 
-    case Repo.update(changeset) do
+    App.CategoryForm
+    |> create_form(category, category_params)
+    |> update_form_data
+    |> case do
       {:ok, category} ->
         conn
         |> put_flash(:info, "Category updated successfully.")
         |> redirect(to: category_path(conn, :show, category))
-      {:error, changeset} ->
-        render(conn, "edit.html", category: category, changeset: changeset)
+      {:error, form} ->
+        render(conn, "edit.html", category: category, form: form)
     end
   end
 

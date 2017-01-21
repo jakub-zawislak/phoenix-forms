@@ -1,5 +1,5 @@
-defmodule App.ArticleType do
-  use Formex.Type
+defmodule App.ArticleForm do
+  use Formex.Form
 
   def build_form( form ) do
 
@@ -15,7 +15,7 @@ defmodule App.ArticleType do
 
   end
 
-  def changeset_callback( changeset ) do
+  def changeset_after_create_callback( changeset ) do
     changeset
   end
 

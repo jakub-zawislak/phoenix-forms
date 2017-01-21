@@ -10,13 +10,13 @@ defmodule App.ArticleController do
 
   def new(conn, _params) do
 
-    form = create_form(App.ArticleType, %Article{})
+    form = create_form(App.ArticleForm, %Article{})
 
     render(conn, "new.html", form: form)
   end
 
   def create(conn, %{"article" => article_params}) do
-    App.ArticleType
+    App.ArticleForm
     |> create_form(%Article{}, article_params)
     |> insert_form_data
     |> case do
@@ -37,7 +37,7 @@ defmodule App.ArticleController do
   def edit(conn, %{"id" => id}) do
     article = Repo.get!(Article, id)
 
-    form = create_form(App.ArticleType, article)
+    form = create_form(App.ArticleForm, article)
 
     render(conn, "edit.html", article: article, form: form)
   end
@@ -45,7 +45,7 @@ defmodule App.ArticleController do
   def update(conn, %{"id" => id, "article" => article_params}) do
     article = Repo.get!(Article, id)
 
-    App.ArticleType
+    App.ArticleForm
     |> create_form(article, article_params)
     |> update_form_data
     |> case do
