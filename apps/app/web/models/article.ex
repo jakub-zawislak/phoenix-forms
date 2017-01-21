@@ -4,7 +4,7 @@ defmodule App.Article do
   schema "articles" do
     field :name, :string
     field :content, :string
-    field :hidden, :boolean
+    field :visible, :boolean
 
     belongs_to :category, App.Category
 
@@ -17,7 +17,9 @@ defmodule App.Article do
     |> validate_required([:name, :content, :category_id])
   end
 
-  def hi() do
-    @ecto_assocs
+  def modify_changeset(changeset) do
+    IO.inspect "asd"
+    nil
   end
+
 end

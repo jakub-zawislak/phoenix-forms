@@ -1,10 +1,10 @@
 defmodule App.CategoryType do
-  import Formex.Type
+  use Formex.Type
 
   def build_form( form ) do
 
     form
-    |> put_field(:text_input, :name, [ label: "Nazwa" ])
+    |> add(:text_input, :name, [ label: "Nazwa" ])
 
   end
 end
