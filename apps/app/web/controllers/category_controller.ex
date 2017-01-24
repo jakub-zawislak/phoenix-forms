@@ -9,14 +9,14 @@ defmodule App.CategoryController do
   end
 
   def new(conn, _params) do
-    form = App.CategoryForm
+    form = App.CategoryType
     |> create_form(%Category{})
 
     render(conn, "new.html", form: form)
   end
 
   def create(conn, %{"category" => category_params}) do
-    App.CategoryForm
+    App.CategoryType
     |> create_form(%Category{}, category_params)
     |> insert_form_data
     |> case do
@@ -36,14 +36,14 @@ defmodule App.CategoryController do
 
   def edit(conn, %{"id" => id}) do
     category = Repo.get!(Category, id)
-    form = create_form(App.CategoryForm, category)
+    form = create_form(App.CategoryType, category)
     render(conn, "edit.html", category: category, form: form)
   end
 
   def update(conn, %{"id" => id, "category" => category_params}) do
     category = Repo.get!(Category, id)
 
-    App.CategoryForm
+    App.CategoryType
     |> create_form(category, category_params)
     |> update_form_data
     |> case do

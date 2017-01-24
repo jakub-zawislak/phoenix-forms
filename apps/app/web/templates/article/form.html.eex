@@ -1,4 +1,4 @@
-<%= formex_for @form, @action, fn f -> %>
+<%= formex_form_for @form, @action, fn f -> %>
 
   <%= if @form.changeset.action do %>
     <div class="alert alert-danger">
@@ -6,11 +6,11 @@
     </div>
   <% end %>
 
-  <%# generate_fields f %>
-  <%= generate_fields_horizontal f %>
-  <%# form_row f, :name %>
-  <%# form_row f, :content %>
-  <%# form_row f, :category_id %>
+  <%= formex_rows f %>
+  <%# formex_rows_horizontal f %>
+  <%# formex_row f, :name %>
+  <%# formex_row f, :content %>
+  <%# formex_row f, :category_id %>
 
   <div class="form-group">
     <%= submit "Submit", class: "btn btn-primary" %>
