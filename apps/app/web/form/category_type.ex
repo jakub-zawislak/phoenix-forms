@@ -1,5 +1,5 @@
 defmodule App.CategoryType do
-  use Formex.Form
+  use Formex.Type
 
   def build_form( form ) do
 
