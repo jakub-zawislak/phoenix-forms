@@ -19,6 +19,9 @@
           <ul class="nav nav-pills">
             <li><%= link "Artykuły", to: article_path(@conn, :index) %></li>
             <li><%= link "Kategorie", to: category_path(@conn, :index) %></li>
+            <li><%= link "Tagi", to: tag_path(@conn, :index) %></li>
+            <li><%= link "Użytkownicy", to: user_path(@conn, :index) %></li>
+            <li><%= link "Działy", to: department_path(@conn, :index) %></li>
           </ul>
         </nav>
       </header>

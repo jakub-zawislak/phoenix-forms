@@ -1,4 +1,11 @@
-<%= formex_form_for @form, @action, fn f -> %>
+<%= formex_form_for @form, @action, [
+    # class: "form-horizontal",
+    # template: Formex.Template.BootstrapHorizontal,
+    # template_options: [
+    #   left_column: "col-xs-2",
+    #   right_column: "col-xs-10"
+    # ]
+  ], fn f -> %>
 
   <%= if @form.changeset.action do %>
     <div class="alert alert-danger">
@@ -7,13 +14,12 @@
   <% end %>
 
   <%= formex_rows f %>
-  <%# formex_rows_horizontal f %>
-  <%# formex_row f, :name %>
+  <%# formex_row f, :name, template_options: [
+    left_column: "col-xs-4",
+    right_column: "col-xs-8"
+  ] %>
   <%# formex_row f, :content %>
   <%# formex_row f, :category_id %>
-
-  <div class="form-group">
-    <%= submit "Submit", class: "btn btn-primary" %>
-  </div>
+  <%# formex_row f, :save %>
 
 <% end %>

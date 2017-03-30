@@ -7,19 +7,12 @@ defmodule App.Article do
     field :visible, :boolean
 
     belongs_to :category, App.Category
+    belongs_to :user, App.User
+
+    many_to_many :tags, App.Tag, join_through: "articles_tags",
+      on_delete: :delete_all, on_replace: :delete
 
     timestamps()
-  end
-
-  def changeset(struct, params \\ %{}) do
-    struct
-    |> cast(params, [:name, :content, :category_id])
-    |> validate_required([:name, :content, :category_id])
-  end
-
-  def modify_changeset(changeset) do
-    IO.inspect "asd"
-    nil
   end
 
 end

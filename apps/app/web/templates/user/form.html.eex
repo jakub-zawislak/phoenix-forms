@@ -1,0 +1,39 @@
+<%= formex_form_for @form, @action, fn f -> %>
+
+  <%= if @form.changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <%= formex_row f, :first_name %>
+  <%= formex_row f, :last_name %>
+  <%# formex_row f, :department_id %>
+  <div class="form-horizontal">
+    <%# formex_row f, :user_info, template: Formex.Template.BootstrapHorizontal %>
+  </div>
+
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+      <a href="#address" data-toggle="tab">
+        Adresy
+      </a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="address">
+
+      <div class="form-horizontal">
+        <%= formex_collection f, :user_addresses, template: Formex.Template.BootstrapHorizontal %>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+
+<% end %>

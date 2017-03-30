@@ -19,6 +19,9 @@ defmodule App.Router do
     get "/", PageController, :index
     resources "/articles", ArticleController
     resources "/categories", CategoryController
+    resources "/users", UserController
+    resources "/department", DepartmentController
+    resources "/tags", TagController
   end
 
   # Other scopes may use custom stacks.

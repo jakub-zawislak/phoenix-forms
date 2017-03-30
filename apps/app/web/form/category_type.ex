@@ -4,7 +4,7 @@ defmodule App.CategoryType do
   def build_form( form ) do
 
     form
-    |> add(:text_input, :name, [ label: "Nazwa" ])
+    |> add(:name, :text_input, [ label: "Nazwa" ])
 
   end
 end
