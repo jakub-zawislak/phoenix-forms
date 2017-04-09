@@ -13,7 +13,6 @@ config :app, App.Endpoint,
   check_origin: false,
   watchers: []
 
-
 # Watch static and templates for browser reloading.
 config :app, App.Endpoint,
   live_reload: [
@@ -36,9 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :app, App.Repo,
-  adapter: Ecto.Adapters.MySQL,
-  username: "root",
-  password: "root",
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "postgres",
   database: "forms",
-  hostname: "localhost",
-  pool_size: 10
+  pool_size: 20

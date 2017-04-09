@@ -9,6 +9,11 @@ defmodule App.User do
     belongs_to :user_info, App.UserInfo
     has_many   :user_addresses, App.UserAddress
 
+    embeds_many :schools, School do
+      field :name, :string
+      formex_collection_child()
+    end
+
     timestamps()
   end
 

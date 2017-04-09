@@ -31,6 +31,23 @@
     </div>
   </div>
 
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+      <a href="#schools" data-toggle="tab">
+        Szkoły
+      </a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="schools">
+
+      <div class="form-horizontal">
+        <%= formex_collection f, :schools, template: Formex.Template.BootstrapHorizontal %>
+      </div>
+
+    </div>
+  </div>
 
   <div class="form-group">
     <%= submit "Submit", class: "btn btn-primary" %>

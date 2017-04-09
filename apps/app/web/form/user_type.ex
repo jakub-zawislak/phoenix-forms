@@ -12,6 +12,7 @@ defmodule App.UserType do
     # ])
     # |> add(:user_info, App.UserInfoType)
     |> add(:user_addresses, App.UserAddressType)
+    |> add(:schools, App.UserSchoolType)
 
   end
 

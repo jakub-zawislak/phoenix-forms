@@ -17,6 +17,8 @@ defmodule App.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/registration", RegistrationController, :index
+    post "/registration", RegistrationController, :register
     resources "/articles", ArticleController
     resources "/categories", CategoryController
     resources "/users", UserController
