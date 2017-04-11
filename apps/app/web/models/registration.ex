@@ -6,15 +6,15 @@ defmodule App.Registration do
     field :email
     field :password
 
-    embeds_one :info, Info do
-      field :section
-    end
-
-    embeds_many :addresses, Address do
-      field :street
-      field :city
-      formex_collection_child()
-    end
+    # embeds_one :info, Info do
+    #   field :section
+    # end
+    #
+    # embeds_many :addresses, Address do
+    #   field :street
+    #   field :city
+    #   formex_collection_child()
+    # end
 
   end
 
