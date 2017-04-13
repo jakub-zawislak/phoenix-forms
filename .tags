@@ -19,16 +19,17 @@ babel-preset-es2015	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/package.js
 webpack	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/package.json	/^    "webpack": "^2.2.1"$/;"	function	line:23
 author	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/package.json	/^  "author": "Jakub Zawiślak",$/;"	function	line:25
 license	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/package.json	/^  "license": "MIT"$/;"	function	line:26
-v0.4.6 (2017-04-10)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.6 (2017-04-10)$/;"	function	line:1
-v0.4.5 (2017-04-09)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.5 (2017-04-09)$/;"	function	line:5
-v0.4.4 (2017-04-01)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.4 (2017-04-01)$/;"	function	line:8
-v0.4.1 (2017-03-24)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.1 (2017-03-24)$/;"	function	line:12
-v0.4.0 (2017-03-08)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.0 (2017-03-08)$/;"	function	line:21
-v0.3.3 (2017-03-06)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.3 (2017-03-06)$/;"	function	line:37
-v0.3.2 (2017-02-22)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.2 (2017-02-22)$/;"	function	line:41
-v0.3.1 (2017-02-18)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.1 (2017-02-18)$/;"	function	line:48
-v0.3.0 (2017-02-17)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.0 (2017-02-17)$/;"	function	line:52
-v0.2.3 (2017-02-12)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.3 (2017-02-12)$/;"	function	line:67
-v0.2.2 (2017-02-09)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.2 (2017-02-09)$/;"	function	line:73
-v0.2.1 (2017-02-07)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.1 (2017-02-07)$/;"	function	line:82
-v0.2.0 (2017-01-28)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.0 (2017-01-28)$/;"	function	line:87
+v0.4.7 (2017-04-12)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.7 (2017-04-12)$/;"	function	line:1
+v0.4.6 (2017-04-10)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.6 (2017-04-10)$/;"	function	line:4
+v0.4.5 (2017-04-09)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.5 (2017-04-09)$/;"	function	line:8
+v0.4.4 (2017-04-01)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.4 (2017-04-01)$/;"	function	line:11
+v0.4.1 (2017-03-24)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.1 (2017-03-24)$/;"	function	line:15
+v0.4.0 (2017-03-08)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.4.0 (2017-03-08)$/;"	function	line:24
+v0.3.3 (2017-03-06)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.3 (2017-03-06)$/;"	function	line:40
+v0.3.2 (2017-02-22)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.2 (2017-02-22)$/;"	function	line:44
+v0.3.1 (2017-02-18)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.1 (2017-02-18)$/;"	function	line:51
+v0.3.0 (2017-02-17)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.3.0 (2017-02-17)$/;"	function	line:55
+v0.2.3 (2017-02-12)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.3 (2017-02-12)$/;"	function	line:70
+v0.2.2 (2017-02-09)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.2 (2017-02-09)$/;"	function	line:76
+v0.2.1 (2017-02-07)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.1 (2017-02-07)$/;"	function	line:85
+v0.2.0 (2017-01-28)	/Users/kuba/htdocs/phoenix/formex_dev/apps/formex/CHANGELOG.md	/^## v0.2.0 (2017-01-28)$/;"	function	line:90
