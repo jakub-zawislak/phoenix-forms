@@ -11,7 +11,7 @@ module.exports = {
     ],
   },
   output: {
-    path: "./apps/app/priv/static/js",
+    path: __dirname+"/apps/app/priv/static/js",
     filename: "[name].js"
   },
 

@@ -6,7 +6,7 @@ defmodule App.UserAddress do
     field :postal_code, :string
     field :city, :string
 
-    belongs_to :user, App.UserInfo
+    belongs_to :user, App.User
 
     timestamps()
     formex_collection_child()

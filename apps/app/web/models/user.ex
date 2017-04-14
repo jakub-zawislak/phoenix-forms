@@ -8,6 +8,7 @@ defmodule App.User do
     belongs_to :department, App.Department
     belongs_to :user_info, App.UserInfo
     has_many   :user_addresses, App.UserAddress
+    has_many   :user_accounts, App.UserAccount
 
     # embeds_many :schools, School do
     #   field :name, :string

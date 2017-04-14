@@ -1,0 +1,1762 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.3.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bootstrap-sass
+20 silly mapToRegistry name bootstrap-sass
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bootstrap-sass',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bootstrap-sass',
+23 silly mapToRegistry   name: 'bootstrap-sass',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-sass
+25 silly fetchNamedPackageData compression-webpack-plugin
+26 silly mapToRegistry name compression-webpack-plugin
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'compression-webpack-plugin',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'compression-webpack-plugin',
+29 silly mapToRegistry   name: 'compression-webpack-plugin',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/compression-webpack-plugin
+31 silly fetchNamedPackageData copy-webpack-plugin
+32 silly mapToRegistry name copy-webpack-plugin
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'copy-webpack-plugin',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'copy-webpack-plugin',
+35 silly mapToRegistry   name: 'copy-webpack-plugin',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/copy-webpack-plugin
+37 silly fetchNamedPackageData css-loader
+38 silly mapToRegistry name css-loader
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'css-loader',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'css-loader',
+41 silly mapToRegistry   name: 'css-loader',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+43 silly fetchNamedPackageData extract-text-webpack-plugin
+44 silly mapToRegistry name extract-text-webpack-plugin
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'extract-text-webpack-plugin',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'extract-text-webpack-plugin',
+47 silly mapToRegistry   name: 'extract-text-webpack-plugin',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/extract-text-webpack-plugin
+49 silly fetchNamedPackageData file-loader
+50 silly mapToRegistry name file-loader
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'file-loader',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'file-loader',
+53 silly mapToRegistry   name: 'file-loader',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/file-loader
+55 silly fetchNamedPackageData font-awesome
+56 silly mapToRegistry name font-awesome
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'font-awesome',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'font-awesome',
+59 silly mapToRegistry   name: 'font-awesome',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+61 silly fetchNamedPackageData jquery
+62 silly mapToRegistry name jquery
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'jquery',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'jquery',
+65 silly mapToRegistry   name: 'jquery',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/jquery
+67 silly fetchNamedPackageData node-sass
+68 silly mapToRegistry name node-sass
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'node-sass',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'node-sass',
+71 silly mapToRegistry   name: 'node-sass',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+73 silly fetchOtherPackageData phoenix@file:deps/phoenix
+74 silly cache add args [ 'phoenix@file:deps/phoenix', null ]
+75 verbose cache add spec phoenix@file:deps/phoenix
+76 silly fetchOtherPackageData phoenix_html@file:deps/phoenix_html
+77 silly cache add args [ 'phoenix_html@file:deps/phoenix_html', null ]
+78 verbose cache add spec phoenix_html@file:deps/phoenix_html
+79 silly fetchNamedPackageData sass-loader
+80 silly mapToRegistry name sass-loader
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'sass-loader',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'sass-loader',
+83 silly mapToRegistry   name: 'sass-loader',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+85 silly fetchNamedPackageData style-loader
+86 silly mapToRegistry name style-loader
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'style-loader',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'style-loader',
+89 silly mapToRegistry   name: 'style-loader',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+91 silly fetchNamedPackageData url-loader
+92 silly mapToRegistry name url-loader
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'url-loader',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'url-loader',
+95 silly mapToRegistry   name: 'url-loader',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/url-loader
+97 silly fetchNamedPackageData webpack
+98 silly mapToRegistry name webpack
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'webpack',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'webpack',
+101 silly mapToRegistry   name: 'webpack',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/webpack
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'phoenix@file:deps/phoenix',
+103 silly cache add   scope: null,
+103 silly cache add   escapedName: 'phoenix',
+103 silly cache add   name: 'phoenix',
+103 silly cache add   rawSpec: 'file:deps/phoenix',
+103 silly cache add   spec: '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix',
+103 silly cache add   type: 'local' }
+104 silly cache add parsed spec Result {
+104 silly cache add   raw: 'phoenix_html@file:deps/phoenix_html',
+104 silly cache add   scope: null,
+104 silly cache add   escapedName: 'phoenix_html',
+104 silly cache add   name: 'phoenix_html',
+104 silly cache add   rawSpec: 'file:deps/phoenix_html',
+104 silly cache add   spec: '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix_html',
+104 silly cache add   type: 'local' }
+105 error addLocal Could not install /Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix
+106 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix'
+106 silly fetchPackageMetaData     at Error (native)
+106 silly fetchPackageMetaData  error for phoenix@file:deps/phoenix { Error: ENOENT: no such file or directory, open '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix'
+106 silly fetchPackageMetaData     at Error (native)
+106 silly fetchPackageMetaData   errno: -2,
+106 silly fetchPackageMetaData   code: 'ENOENT',
+106 silly fetchPackageMetaData   syscall: 'open',
+106 silly fetchPackageMetaData   path: '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix' }
+107 error addLocal Could not install /Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix_html
+108 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix_html'
+108 silly fetchPackageMetaData     at Error (native)
+108 silly fetchPackageMetaData  error for phoenix_html@file:deps/phoenix_html { Error: ENOENT: no such file or directory, open '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix_html'
+108 silly fetchPackageMetaData     at Error (native)
+108 silly fetchPackageMetaData   errno: -2,
+108 silly fetchPackageMetaData   code: 'ENOENT',
+108 silly fetchPackageMetaData   syscall: 'open',
+108 silly fetchPackageMetaData   path: '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix_html' }
+109 verbose request uri https://registry.npmjs.org/compression-webpack-plugin
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 14:40:53
+112 verbose request id 2877d3a541b75f60
+113 verbose etag W/"5801248a-296c"
+114 verbose lastModified Fri, 14 Oct 2016 18:31:38 GMT
+115 http request GET https://registry.npmjs.org/compression-webpack-plugin
+116 verbose request uri https://registry.npmjs.org/copy-webpack-plugin
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 14:40:53
+119 verbose etag W/"58d968de-a069"
+120 verbose lastModified Mon, 27 Mar 2017 19:32:46 GMT
+121 http request GET https://registry.npmjs.org/copy-webpack-plugin
+122 verbose request uri https://registry.npmjs.org/bootstrap-sass
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 14:40:53
+125 verbose etag W/"58d6fa17-70d5"
+126 verbose lastModified Sat, 25 Mar 2017 23:15:35 GMT
+127 http request GET https://registry.npmjs.org/bootstrap-sass
+128 verbose request uri https://registry.npmjs.org/css-loader
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 14:40:54
+131 verbose etag W/"58dff1a2-1b2f2"
+132 verbose lastModified Sat, 01 Apr 2017 18:29:54 GMT
+133 http request GET https://registry.npmjs.org/css-loader
+134 verbose request uri https://registry.npmjs.org/extract-text-webpack-plugin
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 14:40:54
+137 verbose etag W/"58eef182-1146c"
+138 verbose lastModified Thu, 13 Apr 2017 03:33:22 GMT
+139 http request GET https://registry.npmjs.org/extract-text-webpack-plugin
+140 verbose request uri https://registry.npmjs.org/file-loader
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 14:40:54
+143 verbose etag W/"58dff1a1-6f09"
+144 verbose lastModified Sat, 01 Apr 2017 18:29:53 GMT
+145 http request GET https://registry.npmjs.org/file-loader
+146 verbose request uri https://registry.npmjs.org/font-awesome
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 14:40:54
+149 verbose etag W/"5836176e-53a0"
+150 verbose lastModified Wed, 23 Nov 2016 22:25:50 GMT
+151 http request GET https://registry.npmjs.org/font-awesome
+152 verbose request uri https://registry.npmjs.org/jquery
+153 verbose request no auth needed
+154 info attempt registry request try #1 at 14:40:54
+155 verbose etag W/"58ec4daa-15f3d"
+156 verbose lastModified Tue, 11 Apr 2017 03:29:46 GMT
+157 http request GET https://registry.npmjs.org/jquery
+158 verbose request uri https://registry.npmjs.org/node-sass
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 14:40:54
+161 verbose etag W/"58ef4eda-3ca12"
+162 verbose lastModified Thu, 13 Apr 2017 10:11:38 GMT
+163 http request GET https://registry.npmjs.org/node-sass
+164 verbose request uri https://registry.npmjs.org/sass-loader
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 14:40:54
+167 verbose etag W/"58d8eb10-14526"
+168 verbose lastModified Mon, 27 Mar 2017 10:36:00 GMT
+169 http request GET https://registry.npmjs.org/sass-loader
+170 verbose request uri https://registry.npmjs.org/style-loader
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 14:40:54
+173 verbose etag W/"58dff1a5-b5d9"
+174 verbose lastModified Sat, 01 Apr 2017 18:29:57 GMT
+175 http request GET https://registry.npmjs.org/style-loader
+176 verbose request uri https://registry.npmjs.org/url-loader
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 14:40:54
+179 verbose etag W/"58dff19e-3d6b"
+180 verbose lastModified Sat, 01 Apr 2017 18:29:50 GMT
+181 http request GET https://registry.npmjs.org/url-loader
+182 verbose request uri https://registry.npmjs.org/webpack
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 14:40:54
+185 verbose etag W/"58ef50e2-e9cc2"
+186 verbose lastModified Thu, 13 Apr 2017 10:20:18 GMT
+187 http request GET https://registry.npmjs.org/webpack
+188 http 304 https://registry.npmjs.org/copy-webpack-plugin
+189 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+189 verbose headers   via: '1.1 varnish',
+189 verbose headers   'cache-control': 'max-age=300',
+189 verbose headers   etag: 'W/"58d968de-a069"',
+189 verbose headers   age: '21',
+189 verbose headers   connection: 'keep-alive',
+189 verbose headers   'x-served-by': 'cache-hhn1526-HHN',
+189 verbose headers   'x-cache': 'HIT',
+189 verbose headers   'x-cache-hits': '2',
+189 verbose headers   'x-timer': 'S1492087254.271378,VS0,VE0',
+189 verbose headers   vary: 'Accept-Encoding' }
+190 silly get cb [ 304,
+190 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+190 silly get     via: '1.1 varnish',
+190 silly get     'cache-control': 'max-age=300',
+190 silly get     etag: 'W/"58d968de-a069"',
+190 silly get     age: '21',
+190 silly get     connection: 'keep-alive',
+190 silly get     'x-served-by': 'cache-hhn1526-HHN',
+190 silly get     'x-cache': 'HIT',
+190 silly get     'x-cache-hits': '2',
+190 silly get     'x-timer': 'S1492087254.271378,VS0,VE0',
+190 silly get     vary: 'Accept-Encoding' } ]
+191 verbose etag https://registry.npmjs.org/copy-webpack-plugin from cache
+192 verbose get saving copy-webpack-plugin to /Users/kuba/.npm/registry.npmjs.org/copy-webpack-plugin/.cache.json
+193 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+194 http 304 https://registry.npmjs.org/bootstrap-sass
+195 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+195 verbose headers   via: '1.1 varnish',
+195 verbose headers   'cache-control': 'max-age=300',
+195 verbose headers   etag: 'W/"58d6fa17-70d5"',
+195 verbose headers   age: '137',
+195 verbose headers   connection: 'keep-alive',
+195 verbose headers   'x-served-by': 'cache-hhn1524-HHN',
+195 verbose headers   'x-cache': 'HIT',
+195 verbose headers   'x-cache-hits': '1',
+195 verbose headers   'x-timer': 'S1492087254.273635,VS0,VE1',
+195 verbose headers   vary: 'Accept-Encoding' }
+196 silly get cb [ 304,
+196 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+196 silly get     via: '1.1 varnish',
+196 silly get     'cache-control': 'max-age=300',
+196 silly get     etag: 'W/"58d6fa17-70d5"',
+196 silly get     age: '137',
+196 silly get     connection: 'keep-alive',
+196 silly get     'x-served-by': 'cache-hhn1524-HHN',
+196 silly get     'x-cache': 'HIT',
+196 silly get     'x-cache-hits': '1',
+196 silly get     'x-timer': 'S1492087254.273635,VS0,VE1',
+196 silly get     vary: 'Accept-Encoding' } ]
+197 verbose etag https://registry.npmjs.org/bootstrap-sass from cache
+198 verbose get saving bootstrap-sass to /Users/kuba/.npm/registry.npmjs.org/bootstrap-sass/.cache.json
+199 verbose correctMkdir /Users/kuba/.npm correctMkdir already in flight; waiting
+200 http 304 https://registry.npmjs.org/extract-text-webpack-plugin
+201 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   etag: 'W/"58eef182-1146c"',
+201 verbose headers   age: '54',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-hhn1546-HHN',
+201 verbose headers   'x-cache': 'HIT',
+201 verbose headers   'x-cache-hits': '2',
+201 verbose headers   'x-timer': 'S1492087254.305278,VS0,VE0',
+201 verbose headers   vary: 'Accept-Encoding' }
+202 silly get cb [ 304,
+202 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     etag: 'W/"58eef182-1146c"',
+202 silly get     age: '54',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-hhn1546-HHN',
+202 silly get     'x-cache': 'HIT',
+202 silly get     'x-cache-hits': '2',
+202 silly get     'x-timer': 'S1492087254.305278,VS0,VE0',
+202 silly get     vary: 'Accept-Encoding' } ]
+203 verbose etag https://registry.npmjs.org/extract-text-webpack-plugin from cache
+204 verbose get saving extract-text-webpack-plugin to /Users/kuba/.npm/registry.npmjs.org/extract-text-webpack-plugin/.cache.json
+205 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+206 http 304 https://registry.npmjs.org/css-loader
+207 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+207 verbose headers   via: '1.1 varnish',
+207 verbose headers   'cache-control': 'max-age=300',
+207 verbose headers   etag: 'W/"58dff1a2-1b2f2"',
+207 verbose headers   age: '245',
+207 verbose headers   connection: 'keep-alive',
+207 verbose headers   'x-served-by': 'cache-hhn1528-HHN',
+207 verbose headers   'x-cache': 'HIT',
+207 verbose headers   'x-cache-hits': '4',
+207 verbose headers   'x-timer': 'S1492087254.304359,VS0,VE0',
+207 verbose headers   vary: 'Accept-Encoding' }
+208 silly get cb [ 304,
+208 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+208 silly get     via: '1.1 varnish',
+208 silly get     'cache-control': 'max-age=300',
+208 silly get     etag: 'W/"58dff1a2-1b2f2"',
+208 silly get     age: '245',
+208 silly get     connection: 'keep-alive',
+208 silly get     'x-served-by': 'cache-hhn1528-HHN',
+208 silly get     'x-cache': 'HIT',
+208 silly get     'x-cache-hits': '4',
+208 silly get     'x-timer': 'S1492087254.304359,VS0,VE0',
+208 silly get     vary: 'Accept-Encoding' } ]
+209 verbose etag https://registry.npmjs.org/css-loader from cache
+210 verbose get saving css-loader to /Users/kuba/.npm/registry.npmjs.org/css-loader/.cache.json
+211 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+212 http 304 https://registry.npmjs.org/jquery
+213 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+213 verbose headers   via: '1.1 varnish',
+213 verbose headers   'cache-control': 'max-age=300',
+213 verbose headers   etag: 'W/"58ec4daa-15f3d"',
+213 verbose headers   age: '182',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'x-served-by': 'cache-hhn1532-HHN',
+213 verbose headers   'x-cache': 'HIT',
+213 verbose headers   'x-cache-hits': '4',
+213 verbose headers   'x-timer': 'S1492087254.305772,VS0,VE0',
+213 verbose headers   vary: 'Accept-Encoding' }
+214 silly get cb [ 304,
+214 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+214 silly get     via: '1.1 varnish',
+214 silly get     'cache-control': 'max-age=300',
+214 silly get     etag: 'W/"58ec4daa-15f3d"',
+214 silly get     age: '182',
+214 silly get     connection: 'keep-alive',
+214 silly get     'x-served-by': 'cache-hhn1532-HHN',
+214 silly get     'x-cache': 'HIT',
+214 silly get     'x-cache-hits': '4',
+214 silly get     'x-timer': 'S1492087254.305772,VS0,VE0',
+214 silly get     vary: 'Accept-Encoding' } ]
+215 verbose etag https://registry.npmjs.org/jquery from cache
+216 verbose get saving jquery to /Users/kuba/.npm/registry.npmjs.org/jquery/.cache.json
+217 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+218 http 304 https://registry.npmjs.org/url-loader
+219 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+219 verbose headers   via: '1.1 varnish',
+219 verbose headers   'cache-control': 'max-age=300',
+219 verbose headers   etag: 'W/"58dff19e-3d6b"',
+219 verbose headers   age: '31',
+219 verbose headers   connection: 'keep-alive',
+219 verbose headers   'x-served-by': 'cache-hhn1549-HHN',
+219 verbose headers   'x-cache': 'HIT',
+219 verbose headers   'x-cache-hits': '1',
+219 verbose headers   'x-timer': 'S1492087254.310239,VS0,VE0',
+219 verbose headers   vary: 'Accept-Encoding' }
+220 silly get cb [ 304,
+220 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+220 silly get     via: '1.1 varnish',
+220 silly get     'cache-control': 'max-age=300',
+220 silly get     etag: 'W/"58dff19e-3d6b"',
+220 silly get     age: '31',
+220 silly get     connection: 'keep-alive',
+220 silly get     'x-served-by': 'cache-hhn1549-HHN',
+220 silly get     'x-cache': 'HIT',
+220 silly get     'x-cache-hits': '1',
+220 silly get     'x-timer': 'S1492087254.310239,VS0,VE0',
+220 silly get     vary: 'Accept-Encoding' } ]
+221 verbose etag https://registry.npmjs.org/url-loader from cache
+222 verbose get saving url-loader to /Users/kuba/.npm/registry.npmjs.org/url-loader/.cache.json
+223 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+224 http 200 https://registry.npmjs.org/compression-webpack-plugin
+225 verbose headers { server: 'nginx/1.10.1',
+225 verbose headers   'content-type': 'application/json',
+225 verbose headers   'last-modified': 'Sat, 08 Apr 2017 04:42:18 GMT',
+225 verbose headers   etag: 'W/"58e86a2a-39a5"',
+225 verbose headers   'content-encoding': 'gzip',
+225 verbose headers   'cache-control': 'max-age=300',
+225 verbose headers   'content-length': '3104',
+225 verbose headers   'accept-ranges': 'bytes',
+225 verbose headers   date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+225 verbose headers   via: '1.1 varnish',
+225 verbose headers   age: '80',
+225 verbose headers   connection: 'keep-alive',
+225 verbose headers   'x-served-by': 'cache-hhn1550-HHN',
+225 verbose headers   'x-cache': 'HIT',
+225 verbose headers   'x-cache-hits': '1',
+225 verbose headers   'x-timer': 'S1492087254.295475,VS0,VE0',
+225 verbose headers   vary: 'Accept-Encoding' }
+226 silly get cb [ 200,
+226 silly get   { server: 'nginx/1.10.1',
+226 silly get     'content-type': 'application/json',
+226 silly get     'last-modified': 'Sat, 08 Apr 2017 04:42:18 GMT',
+226 silly get     etag: 'W/"58e86a2a-39a5"',
+226 silly get     'content-encoding': 'gzip',
+226 silly get     'cache-control': 'max-age=300',
+226 silly get     'content-length': '3104',
+226 silly get     'accept-ranges': 'bytes',
+226 silly get     date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     age: '80',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-hhn1550-HHN',
+226 silly get     'x-cache': 'HIT',
+226 silly get     'x-cache-hits': '1',
+226 silly get     'x-timer': 'S1492087254.295475,VS0,VE0',
+226 silly get     vary: 'Accept-Encoding' } ]
+227 verbose get saving compression-webpack-plugin to /Users/kuba/.npm/registry.npmjs.org/compression-webpack-plugin/.cache.json
+228 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+229 http 304 https://registry.npmjs.org/file-loader
+230 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+230 verbose headers   via: '1.1 varnish',
+230 verbose headers   'cache-control': 'max-age=300',
+230 verbose headers   etag: 'W/"58dff1a1-6f09"',
+230 verbose headers   age: '114',
+230 verbose headers   connection: 'keep-alive',
+230 verbose headers   'x-served-by': 'cache-hhn1523-HHN',
+230 verbose headers   'x-cache': 'HIT',
+230 verbose headers   'x-cache-hits': '5',
+230 verbose headers   'x-timer': 'S1492087254.315035,VS0,VE0',
+230 verbose headers   vary: 'Accept-Encoding' }
+231 silly get cb [ 304,
+231 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+231 silly get     via: '1.1 varnish',
+231 silly get     'cache-control': 'max-age=300',
+231 silly get     etag: 'W/"58dff1a1-6f09"',
+231 silly get     age: '114',
+231 silly get     connection: 'keep-alive',
+231 silly get     'x-served-by': 'cache-hhn1523-HHN',
+231 silly get     'x-cache': 'HIT',
+231 silly get     'x-cache-hits': '5',
+231 silly get     'x-timer': 'S1492087254.315035,VS0,VE0',
+231 silly get     vary: 'Accept-Encoding' } ]
+232 verbose etag https://registry.npmjs.org/file-loader from cache
+233 verbose get saving file-loader to /Users/kuba/.npm/registry.npmjs.org/file-loader/.cache.json
+234 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+235 http 304 https://registry.npmjs.org/webpack
+236 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+236 verbose headers   via: '1.1 varnish',
+236 verbose headers   'cache-control': 'max-age=300',
+236 verbose headers   etag: 'W/"58ef50e2-e9cc2"',
+236 verbose headers   age: '299',
+236 verbose headers   connection: 'keep-alive',
+236 verbose headers   'x-served-by': 'cache-hhn1539-HHN',
+236 verbose headers   'x-cache': 'HIT',
+236 verbose headers   'x-cache-hits': '4',
+236 verbose headers   'x-timer': 'S1492087254.316362,VS0,VE0',
+236 verbose headers   vary: 'Accept-Encoding' }
+237 silly get cb [ 304,
+237 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+237 silly get     via: '1.1 varnish',
+237 silly get     'cache-control': 'max-age=300',
+237 silly get     etag: 'W/"58ef50e2-e9cc2"',
+237 silly get     age: '299',
+237 silly get     connection: 'keep-alive',
+237 silly get     'x-served-by': 'cache-hhn1539-HHN',
+237 silly get     'x-cache': 'HIT',
+237 silly get     'x-cache-hits': '4',
+237 silly get     'x-timer': 'S1492087254.316362,VS0,VE0',
+237 silly get     vary: 'Accept-Encoding' } ]
+238 verbose etag https://registry.npmjs.org/webpack from cache
+239 verbose get saving webpack to /Users/kuba/.npm/registry.npmjs.org/webpack/.cache.json
+240 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+241 http 304 https://registry.npmjs.org/node-sass
+242 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+242 verbose headers   via: '1.1 varnish',
+242 verbose headers   'cache-control': 'max-age=300',
+242 verbose headers   etag: 'W/"58ef4eda-3ca12"',
+242 verbose headers   age: '102',
+242 verbose headers   connection: 'keep-alive',
+242 verbose headers   'x-served-by': 'cache-hhn1545-HHN',
+242 verbose headers   'x-cache': 'HIT',
+242 verbose headers   'x-cache-hits': '3',
+242 verbose headers   'x-timer': 'S1492087254.320246,VS0,VE0',
+242 verbose headers   vary: 'Accept-Encoding' }
+243 silly get cb [ 304,
+243 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+243 silly get     via: '1.1 varnish',
+243 silly get     'cache-control': 'max-age=300',
+243 silly get     etag: 'W/"58ef4eda-3ca12"',
+243 silly get     age: '102',
+243 silly get     connection: 'keep-alive',
+243 silly get     'x-served-by': 'cache-hhn1545-HHN',
+243 silly get     'x-cache': 'HIT',
+243 silly get     'x-cache-hits': '3',
+243 silly get     'x-timer': 'S1492087254.320246,VS0,VE0',
+243 silly get     vary: 'Accept-Encoding' } ]
+244 verbose etag https://registry.npmjs.org/node-sass from cache
+245 verbose get saving node-sass to /Users/kuba/.npm/registry.npmjs.org/node-sass/.cache.json
+246 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+247 http 304 https://registry.npmjs.org/style-loader
+248 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+248 verbose headers   via: '1.1 varnish',
+248 verbose headers   'cache-control': 'max-age=300',
+248 verbose headers   etag: 'W/"58dff1a5-b5d9"',
+248 verbose headers   age: '107',
+248 verbose headers   connection: 'keep-alive',
+248 verbose headers   'x-served-by': 'cache-hhn1543-HHN',
+248 verbose headers   'x-cache': 'HIT',
+248 verbose headers   'x-cache-hits': '2',
+248 verbose headers   'x-timer': 'S1492087254.321331,VS0,VE0',
+248 verbose headers   vary: 'Accept-Encoding' }
+249 silly get cb [ 304,
+249 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+249 silly get     via: '1.1 varnish',
+249 silly get     'cache-control': 'max-age=300',
+249 silly get     etag: 'W/"58dff1a5-b5d9"',
+249 silly get     age: '107',
+249 silly get     connection: 'keep-alive',
+249 silly get     'x-served-by': 'cache-hhn1543-HHN',
+249 silly get     'x-cache': 'HIT',
+249 silly get     'x-cache-hits': '2',
+249 silly get     'x-timer': 'S1492087254.321331,VS0,VE0',
+249 silly get     vary: 'Accept-Encoding' } ]
+250 verbose etag https://registry.npmjs.org/style-loader from cache
+251 verbose get saving style-loader to /Users/kuba/.npm/registry.npmjs.org/style-loader/.cache.json
+252 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+253 http 304 https://registry.npmjs.org/sass-loader
+254 verbose headers { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+254 verbose headers   via: '1.1 varnish',
+254 verbose headers   'cache-control': 'max-age=300',
+254 verbose headers   etag: 'W/"58d8eb10-14526"',
+254 verbose headers   age: '114',
+254 verbose headers   connection: 'keep-alive',
+254 verbose headers   'x-served-by': 'cache-hhn1540-HHN',
+254 verbose headers   'x-cache': 'HIT',
+254 verbose headers   'x-cache-hits': '1',
+254 verbose headers   'x-timer': 'S1492087254.323142,VS0,VE1',
+254 verbose headers   vary: 'Accept-Encoding' }
+255 silly get cb [ 304,
+255 silly get   { date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+255 silly get     via: '1.1 varnish',
+255 silly get     'cache-control': 'max-age=300',
+255 silly get     etag: 'W/"58d8eb10-14526"',
+255 silly get     age: '114',
+255 silly get     connection: 'keep-alive',
+255 silly get     'x-served-by': 'cache-hhn1540-HHN',
+255 silly get     'x-cache': 'HIT',
+255 silly get     'x-cache-hits': '1',
+255 silly get     'x-timer': 'S1492087254.323142,VS0,VE1',
+255 silly get     vary: 'Accept-Encoding' } ]
+256 verbose etag https://registry.npmjs.org/sass-loader from cache
+257 verbose get saving sass-loader to /Users/kuba/.npm/registry.npmjs.org/sass-loader/.cache.json
+258 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+259 http 200 https://registry.npmjs.org/font-awesome
+260 verbose headers { server: 'nginx/1.10.1',
+260 verbose headers   'content-type': 'application/json',
+260 verbose headers   'last-modified': 'Mon, 10 Apr 2017 19:02:49 GMT',
+260 verbose headers   etag: 'W/"58ebd6d9-55bd"',
+260 verbose headers   'content-encoding': 'gzip',
+260 verbose headers   'cache-control': 'max-age=300',
+260 verbose headers   'content-length': '4525',
+260 verbose headers   'accept-ranges': 'bytes',
+260 verbose headers   date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+260 verbose headers   via: '1.1 varnish',
+260 verbose headers   age: '89',
+260 verbose headers   connection: 'keep-alive',
+260 verbose headers   'x-served-by': 'cache-hhn1534-HHN',
+260 verbose headers   'x-cache': 'HIT',
+260 verbose headers   'x-cache-hits': '1',
+260 verbose headers   'x-timer': 'S1492087254.312509,VS0,VE0',
+260 verbose headers   vary: 'Accept-Encoding' }
+261 silly get cb [ 200,
+261 silly get   { server: 'nginx/1.10.1',
+261 silly get     'content-type': 'application/json',
+261 silly get     'last-modified': 'Mon, 10 Apr 2017 19:02:49 GMT',
+261 silly get     etag: 'W/"58ebd6d9-55bd"',
+261 silly get     'content-encoding': 'gzip',
+261 silly get     'cache-control': 'max-age=300',
+261 silly get     'content-length': '4525',
+261 silly get     'accept-ranges': 'bytes',
+261 silly get     date: 'Thu, 13 Apr 2017 12:40:54 GMT',
+261 silly get     via: '1.1 varnish',
+261 silly get     age: '89',
+261 silly get     connection: 'keep-alive',
+261 silly get     'x-served-by': 'cache-hhn1534-HHN',
+261 silly get     'x-cache': 'HIT',
+261 silly get     'x-cache-hits': '1',
+261 silly get     'x-timer': 'S1492087254.312509,VS0,VE0',
+261 silly get     vary: 'Accept-Encoding' } ]
+262 verbose get saving font-awesome to /Users/kuba/.npm/registry.npmjs.org/font-awesome/.cache.json
+263 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+264 silly resolveWithNewModule bootstrap-sass@3.3.7 checking installable status
+265 silly cache add args [ 'bootstrap-sass@^3.3.6', null ]
+266 verbose cache add spec bootstrap-sass@^3.3.6
+267 silly cache add parsed spec Result {
+267 silly cache add   raw: 'bootstrap-sass@^3.3.6',
+267 silly cache add   scope: null,
+267 silly cache add   escapedName: 'bootstrap-sass',
+267 silly cache add   name: 'bootstrap-sass',
+267 silly cache add   rawSpec: '^3.3.6',
+267 silly cache add   spec: '>=3.3.6 <4.0.0',
+267 silly cache add   type: 'range' }
+268 silly addNamed bootstrap-sass@>=3.3.6 <4.0.0
+269 verbose addNamed ">=3.3.6 <4.0.0" is a valid semver range for bootstrap-sass
+270 silly addNameRange { name: 'bootstrap-sass',
+270 silly addNameRange   range: '>=3.3.6 <4.0.0',
+270 silly addNameRange   hasData: false }
+271 silly mapToRegistry name bootstrap-sass
+272 silly mapToRegistry using default registry
+273 silly mapToRegistry registry https://registry.npmjs.org/
+274 silly mapToRegistry data Result {
+274 silly mapToRegistry   raw: 'bootstrap-sass',
+274 silly mapToRegistry   scope: null,
+274 silly mapToRegistry   escapedName: 'bootstrap-sass',
+274 silly mapToRegistry   name: 'bootstrap-sass',
+274 silly mapToRegistry   rawSpec: '',
+274 silly mapToRegistry   spec: 'latest',
+274 silly mapToRegistry   type: 'tag' }
+275 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-sass
+276 verbose addNameRange registry:https://registry.npmjs.org/bootstrap-sass not in flight; fetching
+277 silly resolveWithNewModule copy-webpack-plugin@3.0.1 checking installable status
+278 silly cache add args [ 'copy-webpack-plugin@^3.0.1', null ]
+279 verbose cache add spec copy-webpack-plugin@^3.0.1
+280 silly cache add parsed spec Result {
+280 silly cache add   raw: 'copy-webpack-plugin@^3.0.1',
+280 silly cache add   scope: null,
+280 silly cache add   escapedName: 'copy-webpack-plugin',
+280 silly cache add   name: 'copy-webpack-plugin',
+280 silly cache add   rawSpec: '^3.0.1',
+280 silly cache add   spec: '>=3.0.1 <4.0.0',
+280 silly cache add   type: 'range' }
+281 silly addNamed copy-webpack-plugin@>=3.0.1 <4.0.0
+282 verbose addNamed ">=3.0.1 <4.0.0" is a valid semver range for copy-webpack-plugin
+283 silly addNameRange { name: 'copy-webpack-plugin',
+283 silly addNameRange   range: '>=3.0.1 <4.0.0',
+283 silly addNameRange   hasData: false }
+284 silly mapToRegistry name copy-webpack-plugin
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'copy-webpack-plugin',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   escapedName: 'copy-webpack-plugin',
+287 silly mapToRegistry   name: 'copy-webpack-plugin',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npmjs.org/copy-webpack-plugin
+289 verbose addNameRange registry:https://registry.npmjs.org/copy-webpack-plugin not in flight; fetching
+290 silly resolveWithNewModule extract-text-webpack-plugin@1.0.1 checking installable status
+291 silly cache add args [ 'extract-text-webpack-plugin@^1.0.1', null ]
+292 verbose cache add spec extract-text-webpack-plugin@^1.0.1
+293 silly cache add parsed spec Result {
+293 silly cache add   raw: 'extract-text-webpack-plugin@^1.0.1',
+293 silly cache add   scope: null,
+293 silly cache add   escapedName: 'extract-text-webpack-plugin',
+293 silly cache add   name: 'extract-text-webpack-plugin',
+293 silly cache add   rawSpec: '^1.0.1',
+293 silly cache add   spec: '>=1.0.1 <2.0.0',
+293 silly cache add   type: 'range' }
+294 silly addNamed extract-text-webpack-plugin@>=1.0.1 <2.0.0
+295 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for extract-text-webpack-plugin
+296 silly addNameRange { name: 'extract-text-webpack-plugin',
+296 silly addNameRange   range: '>=1.0.1 <2.0.0',
+296 silly addNameRange   hasData: false }
+297 silly mapToRegistry name extract-text-webpack-plugin
+298 silly mapToRegistry using default registry
+299 silly mapToRegistry registry https://registry.npmjs.org/
+300 silly mapToRegistry data Result {
+300 silly mapToRegistry   raw: 'extract-text-webpack-plugin',
+300 silly mapToRegistry   scope: null,
+300 silly mapToRegistry   escapedName: 'extract-text-webpack-plugin',
+300 silly mapToRegistry   name: 'extract-text-webpack-plugin',
+300 silly mapToRegistry   rawSpec: '',
+300 silly mapToRegistry   spec: 'latest',
+300 silly mapToRegistry   type: 'tag' }
+301 silly mapToRegistry uri https://registry.npmjs.org/extract-text-webpack-plugin
+302 verbose addNameRange registry:https://registry.npmjs.org/extract-text-webpack-plugin not in flight; fetching
+303 silly resolveWithNewModule css-loader@0.23.1 checking installable status
+304 silly cache add args [ 'css-loader@^0.23.1', null ]
+305 verbose cache add spec css-loader@^0.23.1
+306 silly cache add parsed spec Result {
+306 silly cache add   raw: 'css-loader@^0.23.1',
+306 silly cache add   scope: null,
+306 silly cache add   escapedName: 'css-loader',
+306 silly cache add   name: 'css-loader',
+306 silly cache add   rawSpec: '^0.23.1',
+306 silly cache add   spec: '>=0.23.1 <0.24.0',
+306 silly cache add   type: 'range' }
+307 silly addNamed css-loader@>=0.23.1 <0.24.0
+308 verbose addNamed ">=0.23.1 <0.24.0" is a valid semver range for css-loader
+309 silly addNameRange { name: 'css-loader', range: '>=0.23.1 <0.24.0', hasData: false }
+310 silly mapToRegistry name css-loader
+311 silly mapToRegistry using default registry
+312 silly mapToRegistry registry https://registry.npmjs.org/
+313 silly mapToRegistry data Result {
+313 silly mapToRegistry   raw: 'css-loader',
+313 silly mapToRegistry   scope: null,
+313 silly mapToRegistry   escapedName: 'css-loader',
+313 silly mapToRegistry   name: 'css-loader',
+313 silly mapToRegistry   rawSpec: '',
+313 silly mapToRegistry   spec: 'latest',
+313 silly mapToRegistry   type: 'tag' }
+314 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+315 verbose addNameRange registry:https://registry.npmjs.org/css-loader not in flight; fetching
+316 silly resolveWithNewModule url-loader@0.5.8 checking installable status
+317 silly cache add args [ 'url-loader@^0.5.7', null ]
+318 verbose cache add spec url-loader@^0.5.7
+319 silly cache add parsed spec Result {
+319 silly cache add   raw: 'url-loader@^0.5.7',
+319 silly cache add   scope: null,
+319 silly cache add   escapedName: 'url-loader',
+319 silly cache add   name: 'url-loader',
+319 silly cache add   rawSpec: '^0.5.7',
+319 silly cache add   spec: '>=0.5.7 <0.6.0',
+319 silly cache add   type: 'range' }
+320 silly addNamed url-loader@>=0.5.7 <0.6.0
+321 verbose addNamed ">=0.5.7 <0.6.0" is a valid semver range for url-loader
+322 silly addNameRange { name: 'url-loader', range: '>=0.5.7 <0.6.0', hasData: false }
+323 silly mapToRegistry name url-loader
+324 silly mapToRegistry using default registry
+325 silly mapToRegistry registry https://registry.npmjs.org/
+326 silly mapToRegistry data Result {
+326 silly mapToRegistry   raw: 'url-loader',
+326 silly mapToRegistry   scope: null,
+326 silly mapToRegistry   escapedName: 'url-loader',
+326 silly mapToRegistry   name: 'url-loader',
+326 silly mapToRegistry   rawSpec: '',
+326 silly mapToRegistry   spec: 'latest',
+326 silly mapToRegistry   type: 'tag' }
+327 silly mapToRegistry uri https://registry.npmjs.org/url-loader
+328 verbose addNameRange registry:https://registry.npmjs.org/url-loader not in flight; fetching
+329 silly resolveWithNewModule jquery@2.2.4 checking installable status
+330 silly cache add args [ 'jquery@^2.0.0', null ]
+331 verbose cache add spec jquery@^2.0.0
+332 silly cache add parsed spec Result {
+332 silly cache add   raw: 'jquery@^2.0.0',
+332 silly cache add   scope: null,
+332 silly cache add   escapedName: 'jquery',
+332 silly cache add   name: 'jquery',
+332 silly cache add   rawSpec: '^2.0.0',
+332 silly cache add   spec: '>=2.0.0 <3.0.0',
+332 silly cache add   type: 'range' }
+333 silly addNamed jquery@>=2.0.0 <3.0.0
+334 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for jquery
+335 silly addNameRange { name: 'jquery', range: '>=2.0.0 <3.0.0', hasData: false }
+336 silly mapToRegistry name jquery
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npmjs.org/
+339 silly mapToRegistry data Result {
+339 silly mapToRegistry   raw: 'jquery',
+339 silly mapToRegistry   scope: null,
+339 silly mapToRegistry   escapedName: 'jquery',
+339 silly mapToRegistry   name: 'jquery',
+339 silly mapToRegistry   rawSpec: '',
+339 silly mapToRegistry   spec: 'latest',
+339 silly mapToRegistry   type: 'tag' }
+340 silly mapToRegistry uri https://registry.npmjs.org/jquery
+341 verbose addNameRange registry:https://registry.npmjs.org/jquery not in flight; fetching
+342 silly resolveWithNewModule file-loader@0.9.0 checking installable status
+343 silly cache add args [ 'file-loader@^0.9.0', null ]
+344 verbose cache add spec file-loader@^0.9.0
+345 silly cache add parsed spec Result {
+345 silly cache add   raw: 'file-loader@^0.9.0',
+345 silly cache add   scope: null,
+345 silly cache add   escapedName: 'file-loader',
+345 silly cache add   name: 'file-loader',
+345 silly cache add   rawSpec: '^0.9.0',
+345 silly cache add   spec: '>=0.9.0 <0.10.0',
+345 silly cache add   type: 'range' }
+346 silly addNamed file-loader@>=0.9.0 <0.10.0
+347 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for file-loader
+348 silly addNameRange { name: 'file-loader', range: '>=0.9.0 <0.10.0', hasData: false }
+349 silly mapToRegistry name file-loader
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry https://registry.npmjs.org/
+352 silly mapToRegistry data Result {
+352 silly mapToRegistry   raw: 'file-loader',
+352 silly mapToRegistry   scope: null,
+352 silly mapToRegistry   escapedName: 'file-loader',
+352 silly mapToRegistry   name: 'file-loader',
+352 silly mapToRegistry   rawSpec: '',
+352 silly mapToRegistry   spec: 'latest',
+352 silly mapToRegistry   type: 'tag' }
+353 silly mapToRegistry uri https://registry.npmjs.org/file-loader
+354 verbose addNameRange registry:https://registry.npmjs.org/file-loader not in flight; fetching
+355 silly resolveWithNewModule style-loader@0.13.2 checking installable status
+356 silly cache add args [ 'style-loader@^0.13.1', null ]
+357 verbose cache add spec style-loader@^0.13.1
+358 silly cache add parsed spec Result {
+358 silly cache add   raw: 'style-loader@^0.13.1',
+358 silly cache add   scope: null,
+358 silly cache add   escapedName: 'style-loader',
+358 silly cache add   name: 'style-loader',
+358 silly cache add   rawSpec: '^0.13.1',
+358 silly cache add   spec: '>=0.13.1 <0.14.0',
+358 silly cache add   type: 'range' }
+359 silly addNamed style-loader@>=0.13.1 <0.14.0
+360 verbose addNamed ">=0.13.1 <0.14.0" is a valid semver range for style-loader
+361 silly addNameRange { name: 'style-loader',
+361 silly addNameRange   range: '>=0.13.1 <0.14.0',
+361 silly addNameRange   hasData: false }
+362 silly mapToRegistry name style-loader
+363 silly mapToRegistry using default registry
+364 silly mapToRegistry registry https://registry.npmjs.org/
+365 silly mapToRegistry data Result {
+365 silly mapToRegistry   raw: 'style-loader',
+365 silly mapToRegistry   scope: null,
+365 silly mapToRegistry   escapedName: 'style-loader',
+365 silly mapToRegistry   name: 'style-loader',
+365 silly mapToRegistry   rawSpec: '',
+365 silly mapToRegistry   spec: 'latest',
+365 silly mapToRegistry   type: 'tag' }
+366 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+367 verbose addNameRange registry:https://registry.npmjs.org/style-loader not in flight; fetching
+368 silly resolveWithNewModule node-sass@3.13.1 checking installable status
+369 silly cache add args [ 'node-sass@^3.8.0', null ]
+370 verbose cache add spec node-sass@^3.8.0
+371 silly cache add parsed spec Result {
+371 silly cache add   raw: 'node-sass@^3.8.0',
+371 silly cache add   scope: null,
+371 silly cache add   escapedName: 'node-sass',
+371 silly cache add   name: 'node-sass',
+371 silly cache add   rawSpec: '^3.8.0',
+371 silly cache add   spec: '>=3.8.0 <4.0.0',
+371 silly cache add   type: 'range' }
+372 silly addNamed node-sass@>=3.8.0 <4.0.0
+373 verbose addNamed ">=3.8.0 <4.0.0" is a valid semver range for node-sass
+374 silly addNameRange { name: 'node-sass', range: '>=3.8.0 <4.0.0', hasData: false }
+375 silly mapToRegistry name node-sass
+376 silly mapToRegistry using default registry
+377 silly mapToRegistry registry https://registry.npmjs.org/
+378 silly mapToRegistry data Result {
+378 silly mapToRegistry   raw: 'node-sass',
+378 silly mapToRegistry   scope: null,
+378 silly mapToRegistry   escapedName: 'node-sass',
+378 silly mapToRegistry   name: 'node-sass',
+378 silly mapToRegistry   rawSpec: '',
+378 silly mapToRegistry   spec: 'latest',
+378 silly mapToRegistry   type: 'tag' }
+379 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+380 verbose addNameRange registry:https://registry.npmjs.org/node-sass not in flight; fetching
+381 verbose get https://registry.npmjs.org/bootstrap-sass not expired, no request
+382 silly addNameRange number 2 { name: 'bootstrap-sass',
+382 silly addNameRange   range: '>=3.3.6 <4.0.0',
+382 silly addNameRange   hasData: true }
+383 silly addNameRange versions [ 'bootstrap-sass',
+383 silly addNameRange   [ '2.3.2',
+383 silly addNameRange     '3.1.1',
+383 silly addNameRange     '3.2.0',
+383 silly addNameRange     '3.3.0',
+383 silly addNameRange     '3.3.1',
+383 silly addNameRange     '3.3.2',
+383 silly addNameRange     '3.3.3',
+383 silly addNameRange     '3.3.4',
+383 silly addNameRange     '3.3.5',
+383 silly addNameRange     '3.3.6',
+383 silly addNameRange     '3.3.7' ] ]
+384 silly addNamed bootstrap-sass@3.3.7
+385 verbose addNamed "3.3.7" is a plain semver version for bootstrap-sass
+386 silly resolveWithNewModule sass-loader@4.1.1 checking installable status
+387 silly cache add args [ 'sass-loader@^4.0.0', null ]
+388 verbose cache add spec sass-loader@^4.0.0
+389 silly cache add parsed spec Result {
+389 silly cache add   raw: 'sass-loader@^4.0.0',
+389 silly cache add   scope: null,
+389 silly cache add   escapedName: 'sass-loader',
+389 silly cache add   name: 'sass-loader',
+389 silly cache add   rawSpec: '^4.0.0',
+389 silly cache add   spec: '>=4.0.0 <5.0.0',
+389 silly cache add   type: 'range' }
+390 silly addNamed sass-loader@>=4.0.0 <5.0.0
+391 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for sass-loader
+392 silly addNameRange { name: 'sass-loader', range: '>=4.0.0 <5.0.0', hasData: false }
+393 silly mapToRegistry name sass-loader
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry https://registry.npmjs.org/
+396 silly mapToRegistry data Result {
+396 silly mapToRegistry   raw: 'sass-loader',
+396 silly mapToRegistry   scope: null,
+396 silly mapToRegistry   escapedName: 'sass-loader',
+396 silly mapToRegistry   name: 'sass-loader',
+396 silly mapToRegistry   rawSpec: '',
+396 silly mapToRegistry   spec: 'latest',
+396 silly mapToRegistry   type: 'tag' }
+397 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+398 verbose addNameRange registry:https://registry.npmjs.org/sass-loader not in flight; fetching
+399 silly resolveWithNewModule webpack@1.15.0 checking installable status
+400 silly cache add args [ 'webpack@^1.14.0', null ]
+401 verbose cache add spec webpack@^1.14.0
+402 silly cache add parsed spec Result {
+402 silly cache add   raw: 'webpack@^1.14.0',
+402 silly cache add   scope: null,
+402 silly cache add   escapedName: 'webpack',
+402 silly cache add   name: 'webpack',
+402 silly cache add   rawSpec: '^1.14.0',
+402 silly cache add   spec: '>=1.14.0 <2.0.0',
+402 silly cache add   type: 'range' }
+403 silly addNamed webpack@>=1.14.0 <2.0.0
+404 verbose addNamed ">=1.14.0 <2.0.0" is a valid semver range for webpack
+405 silly addNameRange { name: 'webpack', range: '>=1.14.0 <2.0.0', hasData: false }
+406 silly mapToRegistry name webpack
+407 silly mapToRegistry using default registry
+408 silly mapToRegistry registry https://registry.npmjs.org/
+409 silly mapToRegistry data Result {
+409 silly mapToRegistry   raw: 'webpack',
+409 silly mapToRegistry   scope: null,
+409 silly mapToRegistry   escapedName: 'webpack',
+409 silly mapToRegistry   name: 'webpack',
+409 silly mapToRegistry   rawSpec: '',
+409 silly mapToRegistry   spec: 'latest',
+409 silly mapToRegistry   type: 'tag' }
+410 silly mapToRegistry uri https://registry.npmjs.org/webpack
+411 verbose addNameRange registry:https://registry.npmjs.org/webpack not in flight; fetching
+412 silly resolveWithNewModule compression-webpack-plugin@0.3.2 checking installable status
+413 silly cache add args [ 'compression-webpack-plugin@^0.3.1', null ]
+414 verbose cache add spec compression-webpack-plugin@^0.3.1
+415 silly cache add parsed spec Result {
+415 silly cache add   raw: 'compression-webpack-plugin@^0.3.1',
+415 silly cache add   scope: null,
+415 silly cache add   escapedName: 'compression-webpack-plugin',
+415 silly cache add   name: 'compression-webpack-plugin',
+415 silly cache add   rawSpec: '^0.3.1',
+415 silly cache add   spec: '>=0.3.1 <0.4.0',
+415 silly cache add   type: 'range' }
+416 silly addNamed compression-webpack-plugin@>=0.3.1 <0.4.0
+417 verbose addNamed ">=0.3.1 <0.4.0" is a valid semver range for compression-webpack-plugin
+418 silly addNameRange { name: 'compression-webpack-plugin',
+418 silly addNameRange   range: '>=0.3.1 <0.4.0',
+418 silly addNameRange   hasData: false }
+419 silly mapToRegistry name compression-webpack-plugin
+420 silly mapToRegistry using default registry
+421 silly mapToRegistry registry https://registry.npmjs.org/
+422 silly mapToRegistry data Result {
+422 silly mapToRegistry   raw: 'compression-webpack-plugin',
+422 silly mapToRegistry   scope: null,
+422 silly mapToRegistry   escapedName: 'compression-webpack-plugin',
+422 silly mapToRegistry   name: 'compression-webpack-plugin',
+422 silly mapToRegistry   rawSpec: '',
+422 silly mapToRegistry   spec: 'latest',
+422 silly mapToRegistry   type: 'tag' }
+423 silly mapToRegistry uri https://registry.npmjs.org/compression-webpack-plugin
+424 verbose addNameRange registry:https://registry.npmjs.org/compression-webpack-plugin not in flight; fetching
+425 verbose get https://registry.npmjs.org/copy-webpack-plugin not expired, no request
+426 silly addNameRange number 2 { name: 'copy-webpack-plugin',
+426 silly addNameRange   range: '>=3.0.1 <4.0.0',
+426 silly addNameRange   hasData: true }
+427 silly addNameRange versions [ 'copy-webpack-plugin',
+427 silly addNameRange   [ '0.1.0',
+427 silly addNameRange     '0.2.0',
+427 silly addNameRange     '0.3.0',
+427 silly addNameRange     '0.3.1',
+427 silly addNameRange     '0.3.2',
+427 silly addNameRange     '0.3.3',
+427 silly addNameRange     '1.0.0',
+427 silly addNameRange     '1.1.0',
+427 silly addNameRange     '1.1.1',
+427 silly addNameRange     '2.0.0',
+427 silly addNameRange     '2.0.1',
+427 silly addNameRange     '2.1.0',
+427 silly addNameRange     '2.1.1',
+427 silly addNameRange     '2.1.2',
+427 silly addNameRange     '2.1.3',
+427 silly addNameRange     '2.1.4',
+427 silly addNameRange     '2.1.5',
+427 silly addNameRange     '2.1.6',
+427 silly addNameRange     '3.0.0',
+427 silly addNameRange     '3.0.1',
+427 silly addNameRange     '4.0.0',
+427 silly addNameRange     '4.0.1' ] ]
+428 silly addNamed copy-webpack-plugin@3.0.1
+429 verbose addNamed "3.0.1" is a plain semver version for copy-webpack-plugin
+430 silly resolveWithNewModule font-awesome@4.7.0 checking installable status
+431 silly cache add args [ 'font-awesome@^4.6.3', null ]
+432 verbose cache add spec font-awesome@^4.6.3
+433 silly cache add parsed spec Result {
+433 silly cache add   raw: 'font-awesome@^4.6.3',
+433 silly cache add   scope: null,
+433 silly cache add   escapedName: 'font-awesome',
+433 silly cache add   name: 'font-awesome',
+433 silly cache add   rawSpec: '^4.6.3',
+433 silly cache add   spec: '>=4.6.3 <5.0.0',
+433 silly cache add   type: 'range' }
+434 silly addNamed font-awesome@>=4.6.3 <5.0.0
+435 verbose addNamed ">=4.6.3 <5.0.0" is a valid semver range for font-awesome
+436 silly addNameRange { name: 'font-awesome', range: '>=4.6.3 <5.0.0', hasData: false }
+437 silly mapToRegistry name font-awesome
+438 silly mapToRegistry using default registry
+439 silly mapToRegistry registry https://registry.npmjs.org/
+440 silly mapToRegistry data Result {
+440 silly mapToRegistry   raw: 'font-awesome',
+440 silly mapToRegistry   scope: null,
+440 silly mapToRegistry   escapedName: 'font-awesome',
+440 silly mapToRegistry   name: 'font-awesome',
+440 silly mapToRegistry   rawSpec: '',
+440 silly mapToRegistry   spec: 'latest',
+440 silly mapToRegistry   type: 'tag' }
+441 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+442 verbose addNameRange registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+443 verbose get https://registry.npmjs.org/extract-text-webpack-plugin not expired, no request
+444 silly addNameRange number 2 { name: 'extract-text-webpack-plugin',
+444 silly addNameRange   range: '>=1.0.1 <2.0.0',
+444 silly addNameRange   hasData: true }
+445 silly addNameRange versions [ 'extract-text-webpack-plugin',
+445 silly addNameRange   [ '0.1.0',
+445 silly addNameRange     '0.1.1',
+445 silly addNameRange     '0.1.2',
+445 silly addNameRange     '0.2.0',
+445 silly addNameRange     '0.2.1',
+445 silly addNameRange     '0.2.2',
+445 silly addNameRange     '0.2.3',
+445 silly addNameRange     '0.2.4',
+445 silly addNameRange     '0.2.5',
+445 silly addNameRange     '0.3.0',
+445 silly addNameRange     '0.3.1',
+445 silly addNameRange     '0.3.2',
+445 silly addNameRange     '0.3.3',
+445 silly addNameRange     '0.3.4',
+445 silly addNameRange     '0.3.5',
+445 silly addNameRange     '0.3.6',
+445 silly addNameRange     '0.3.7',
+445 silly addNameRange     '0.3.8',
+445 silly addNameRange     '0.4.0',
+445 silly addNameRange     '0.5.0',
+445 silly addNameRange     '0.6.0',
+445 silly addNameRange     '0.7.0',
+445 silly addNameRange     '0.7.1',
+445 silly addNameRange     '0.8.0',
+445 silly addNameRange     '0.8.1',
+445 silly addNameRange     '0.8.2',
+445 silly addNameRange     '0.9.0',
+445 silly addNameRange     '0.9.1',
+445 silly addNameRange     '1.0.0',
+445 silly addNameRange     '1.0.1',
+445 silly addNameRange     '2.0.0-beta.0',
+445 silly addNameRange     '2.0.0-beta.1',
+445 silly addNameRange     '2.0.0-beta.2',
+445 silly addNameRange     '2.0.0-beta.3',
+445 silly addNameRange     '2.0.0-beta.4',
+445 silly addNameRange     '2.0.0-beta.5',
+445 silly addNameRange     '2.0.0-rc.0',
+445 silly addNameRange     '2.0.0-rc.1',
+445 silly addNameRange     '2.0.0-rc.2',
+445 silly addNameRange     '2.0.0-rc.3',
+445 silly addNameRange     '2.0.0',
+445 silly addNameRange     '2.1.0' ] ]
+446 silly addNamed extract-text-webpack-plugin@1.0.1
+447 verbose addNamed "1.0.1" is a plain semver version for extract-text-webpack-plugin
+448 verbose get https://registry.npmjs.org/css-loader not expired, no request
+449 silly addNameRange number 2 { name: 'css-loader', range: '>=0.23.1 <0.24.0', hasData: true }
+450 silly addNameRange versions [ 'css-loader',
+450 silly addNameRange   [ '0.1.0',
+450 silly addNameRange     '0.1.1',
+450 silly addNameRange     '0.1.2',
+450 silly addNameRange     '0.2.0',
+450 silly addNameRange     '0.2.1',
+450 silly addNameRange     '0.2.2',
+450 silly addNameRange     '0.2.3',
+450 silly addNameRange     '0.2.4',
+450 silly addNameRange     '0.5.0',
+450 silly addNameRange     '0.5.1',
+450 silly addNameRange     '0.5.2',
+450 silly addNameRange     '0.6.0',
+450 silly addNameRange     '0.6.1',
+450 silly addNameRange     '0.6.2',
+450 silly addNameRange     '0.6.3',
+450 silly addNameRange     '0.6.4',
+450 silly addNameRange     '0.6.5',
+450 silly addNameRange     '0.6.6',
+450 silly addNameRange     '0.6.7',
+450 silly addNameRange     '0.6.8',
+450 silly addNameRange     '0.6.9',
+450 silly addNameRange     '0.6.10',
+450 silly addNameRange     '0.6.11',
+450 silly addNameRange     '0.6.12',
+450 silly addNameRange     '0.7.0',
+450 silly addNameRange     '0.7.1',
+450 silly addNameRange     '0.8.0',
+450 silly addNameRange     '0.9.0',
+450 silly addNameRange     '0.9.1',
+450 silly addNameRange     '0.10.0',
+450 silly addNameRange     '0.10.1',
+450 silly addNameRange     '0.11.0',
+450 silly addNameRange     '0.11.1',
+450 silly addNameRange     '0.11.2',
+450 silly addNameRange     '0.12.0',
+450 silly addNameRange     '0.12.1',
+450 silly addNameRange     '0.13.0',
+450 silly addNameRange     '0.13.1',
+450 silly addNameRange     '0.14.0',
+450 silly addNameRange     '0.14.1',
+450 silly addNameRange     '0.14.2',
+450 silly addNameRange     '0.14.3',
+450 silly addNameRange     '0.14.4',
+450 silly addNameRange     '0.14.5',
+450 silly addNameRange     '0.15.0',
+450 silly addNameRange     '0.15.1',
+450 silly addNameRange     '0.15.2',
+450 silly addNameRange     '0.15.3',
+450 silly addNameRange     '0.15.4',
+450 silly addNameRange     '0.15.5',
+450 silly addNameRange     '0.15.6',
+450 silly addNameRange     '0.16.0',
+450 silly addNameRange     '0.17.0',
+450 silly addNameRange     '0.18.0',
+450 silly addNameRange     '0.19.0',
+450 silly addNameRange     '0.20.0',
+450 silly addNameRange     '0.20.1',
+450 silly addNameRange     '0.20.2',
+450 silly addNameRange     '0.21.0',
+450 silly addNameRange     '0.22.0',
+450 silly addNameRange     '0.23.0',
+450 silly addNameRange     '0.23.1',
+450 silly addNameRange     '0.24.0',
+450 silly addNameRange     '0.25.0',
+450 silly addNameRange     '0.26.0',
+450 silly addNameRange     '0.26.1',
+450 silly addNameRange     '0.26.2',
+450 silly addNameRange     '0.26.4',
+450 silly addNameRange     '0.27.0',
+450 silly addNameRange     '0.27.1',
+450 silly addNameRange     '0.27.2',
+450 silly addNameRange     '0.27.3',
+450 silly addNameRange     '0.28.0' ] ]
+451 silly addNamed css-loader@0.23.1
+452 verbose addNamed "0.23.1" is a plain semver version for css-loader
+453 verbose get https://registry.npmjs.org/url-loader not expired, no request
+454 silly addNameRange number 2 { name: 'url-loader', range: '>=0.5.7 <0.6.0', hasData: true }
+455 silly addNameRange versions [ 'url-loader',
+455 silly addNameRange   [ '0.1.0',
+455 silly addNameRange     '0.1.1',
+455 silly addNameRange     '0.1.2',
+455 silly addNameRange     '0.1.3',
+455 silly addNameRange     '0.5.0',
+455 silly addNameRange     '0.5.1',
+455 silly addNameRange     '0.5.2',
+455 silly addNameRange     '0.5.3',
+455 silly addNameRange     '0.5.4',
+455 silly addNameRange     '0.5.5',
+455 silly addNameRange     '0.5.6',
+455 silly addNameRange     '0.5.7',
+455 silly addNameRange     '0.5.8' ] ]
+456 silly addNamed url-loader@0.5.8
+457 verbose addNamed "0.5.8" is a plain semver version for url-loader
+458 verbose get https://registry.npmjs.org/jquery not expired, no request
+459 silly addNameRange number 2 { name: 'jquery', range: '>=2.0.0 <3.0.0', hasData: true }
+460 silly addNameRange versions [ 'jquery',
+460 silly addNameRange   [ '1.5.1',
+460 silly addNameRange     '1.6.2',
+460 silly addNameRange     '1.6.3',
+460 silly addNameRange     '1.7.2',
+460 silly addNameRange     '1.7.3',
+460 silly addNameRange     '1.8.2',
+460 silly addNameRange     '1.8.3',
+460 silly addNameRange     '2.1.0-beta2',
+460 silly addNameRange     '2.1.0-beta3',
+460 silly addNameRange     '1.11.0-beta3',
+460 silly addNameRange     '1.11.0-rc1',
+460 silly addNameRange     '2.1.0-rc1',
+460 silly addNameRange     '1.11.0',
+460 silly addNameRange     '2.1.0',
+460 silly addNameRange     '2.1.1-beta1',
+460 silly addNameRange     '1.11.1-beta1',
+460 silly addNameRange     '2.1.1-rc1',
+460 silly addNameRange     '1.11.1-rc1',
+460 silly addNameRange     '2.1.1-rc2',
+460 silly addNameRange     '1.11.1-rc2',
+460 silly addNameRange     '2.1.1',
+460 silly addNameRange     '1.11.1',
+460 silly addNameRange     '1.9.1',
+460 silly addNameRange     '2.1.2',
+460 silly addNameRange     '1.11.2',
+460 silly addNameRange     '2.1.3',
+460 silly addNameRange     '2.1.4',
+460 silly addNameRange     '1.11.3',
+460 silly addNameRange     '3.0.0-alpha1',
+460 silly addNameRange     '1.12.0',
+460 silly addNameRange     '2.2.0',
+460 silly addNameRange     '3.0.0-beta1',
+460 silly addNameRange     '1.12.1',
+460 silly addNameRange     '2.2.1',
+460 silly addNameRange     '1.12.2',
+460 silly addNameRange     '2.2.2',
+460 silly addNameRange     '1.12.3',
+460 silly addNameRange     '2.2.3',
+460 silly addNameRange     '1.12.4',
+460 silly addNameRange     '2.2.4',
+460 silly addNameRange     '3.0.0-rc1',
+460 silly addNameRange     '3.0.0',
+460 silly addNameRange     '3.1.0',
+460 silly addNameRange     '3.1.1',
+460 silly addNameRange     '3.2.0',
+460 silly addNameRange     '3.2.1' ] ]
+461 silly addNamed jquery@2.2.4
+462 verbose addNamed "2.2.4" is a plain semver version for jquery
+463 verbose get https://registry.npmjs.org/file-loader not expired, no request
+464 silly addNameRange number 2 { name: 'file-loader', range: '>=0.9.0 <0.10.0', hasData: true }
+465 silly addNameRange versions [ 'file-loader',
+465 silly addNameRange   [ '0.1.0',
+465 silly addNameRange     '0.1.1',
+465 silly addNameRange     '0.1.2',
+465 silly addNameRange     '0.5.0',
+465 silly addNameRange     '0.5.1',
+465 silly addNameRange     '0.6.1',
+465 silly addNameRange     '0.7.0',
+465 silly addNameRange     '0.7.1',
+465 silly addNameRange     '0.7.2',
+465 silly addNameRange     '0.8.0',
+465 silly addNameRange     '0.8.1',
+465 silly addNameRange     '0.8.2',
+465 silly addNameRange     '0.8.3',
+465 silly addNameRange     '0.8.4',
+465 silly addNameRange     '0.8.5',
+465 silly addNameRange     '0.9.0',
+465 silly addNameRange     '0.10.0',
+465 silly addNameRange     '0.10.1',
+465 silly addNameRange     '0.11.0',
+465 silly addNameRange     '0.11.1' ] ]
+466 silly addNamed file-loader@0.9.0
+467 verbose addNamed "0.9.0" is a plain semver version for file-loader
+468 verbose get https://registry.npmjs.org/style-loader not expired, no request
+469 silly addNameRange number 2 { name: 'style-loader',
+469 silly addNameRange   range: '>=0.13.1 <0.14.0',
+469 silly addNameRange   hasData: true }
+470 silly addNameRange versions [ 'style-loader',
+470 silly addNameRange   [ '0.1.0',
+470 silly addNameRange     '0.1.1',
+470 silly addNameRange     '0.1.2',
+470 silly addNameRange     '0.1.3',
+470 silly addNameRange     '0.2.0',
+470 silly addNameRange     '0.2.1',
+470 silly addNameRange     '0.5.0',
+470 silly addNameRange     '0.5.1',
+470 silly addNameRange     '0.5.2',
+470 silly addNameRange     '0.6.0',
+470 silly addNameRange     '0.6.1',
+470 silly addNameRange     '0.6.2',
+470 silly addNameRange     '0.6.3',
+470 silly addNameRange     '0.6.4',
+470 silly addNameRange     '0.6.5',
+470 silly addNameRange     '0.7.0',
+470 silly addNameRange     '0.7.1',
+470 silly addNameRange     '0.8.0',
+470 silly addNameRange     '0.8.1',
+470 silly addNameRange     '0.8.2',
+470 silly addNameRange     '0.8.3',
+470 silly addNameRange     '0.9.0',
+470 silly addNameRange     '0.10.0',
+470 silly addNameRange     '0.10.1',
+470 silly addNameRange     '0.10.2',
+470 silly addNameRange     '0.11.0',
+470 silly addNameRange     '0.12.0',
+470 silly addNameRange     '0.12.1',
+470 silly addNameRange     '0.12.2',
+470 silly addNameRange     '0.12.3',
+470 silly addNameRange     '0.12.4',
+470 silly addNameRange     '0.13.0',
+470 silly addNameRange     '0.13.1',
+470 silly addNameRange     '0.13.2',
+470 silly addNameRange     '0.14.0',
+470 silly addNameRange     '0.14.1',
+470 silly addNameRange     '0.15.0',
+470 silly addNameRange     '0.16.0',
+470 silly addNameRange     '0.16.1' ] ]
+471 silly addNamed style-loader@0.13.2
+472 verbose addNamed "0.13.2" is a plain semver version for style-loader
+473 verbose get https://registry.npmjs.org/sass-loader not expired, no request
+474 silly addNameRange number 2 { name: 'sass-loader', range: '>=4.0.0 <5.0.0', hasData: true }
+475 silly addNameRange versions [ 'sass-loader',
+475 silly addNameRange   [ '0.0.1',
+475 silly addNameRange     '0.0.2',
+475 silly addNameRange     '0.1.0',
+475 silly addNameRange     '0.1.1',
+475 silly addNameRange     '0.2.0',
+475 silly addNameRange     '0.3.0',
+475 silly addNameRange     '0.3.1',
+475 silly addNameRange     '0.4.0-beta.1',
+475 silly addNameRange     '0.4.0',
+475 silly addNameRange     '0.4.1',
+475 silly addNameRange     '0.4.2',
+475 silly addNameRange     '0.5.0',
+475 silly addNameRange     '1.0.0',
+475 silly addNameRange     '1.0.1',
+475 silly addNameRange     '0.6.0',
+475 silly addNameRange     '1.0.2',
+475 silly addNameRange     '1.0.3',
+475 silly addNameRange     '1.0.4',
+475 silly addNameRange     '2.0.0',
+475 silly addNameRange     '2.0.1',
+475 silly addNameRange     '3.0.0',
+475 silly addNameRange     '3.1.0',
+475 silly addNameRange     '3.1.1',
+475 silly addNameRange     '3.1.2',
+475 silly addNameRange     '3.2.0',
+475 silly addNameRange     '3.2.1',
+475 silly addNameRange     '3.2.2',
+475 silly addNameRange     '4.0.0',
+475 silly addNameRange     '3.2.3',
+475 silly addNameRange     '4.0.1',
+475 silly addNameRange     '4.0.2',
+475 silly addNameRange     '4.1.0',
+475 silly addNameRange     '4.1.1',
+475 silly addNameRange     '5.0.0',
+475 silly addNameRange     '5.0.1',
+475 silly addNameRange     '6.0.0',
+475 silly addNameRange     '6.0.1',
+475 silly addNameRange     '6.0.2',
+475 silly addNameRange     '6.0.3' ] ]
+476 silly addNamed sass-loader@4.1.1
+477 verbose addNamed "4.1.1" is a plain semver version for sass-loader
+478 verbose get https://registry.npmjs.org/node-sass not expired, no request
+479 silly addNameRange number 2 { name: 'node-sass', range: '>=3.8.0 <4.0.0', hasData: true }
+480 silly addNameRange versions [ 'node-sass',
+480 silly addNameRange   [ '0.2.0',
+480 silly addNameRange     '0.2.1',
+480 silly addNameRange     '0.2.2',
+480 silly addNameRange     '0.2.3',
+480 silly addNameRange     '0.2.4',
+480 silly addNameRange     '0.2.5',
+480 silly addNameRange     '0.2.6',
+480 silly addNameRange     '0.3.0',
+480 silly addNameRange     '0.4.0',
+480 silly addNameRange     '0.4.1',
+480 silly addNameRange     '0.4.2',
+480 silly addNameRange     '0.4.3',
+480 silly addNameRange     '0.4.4',
+480 silly addNameRange     '0.5.0',
+480 silly addNameRange     '0.5.1',
+480 silly addNameRange     '0.5.2',
+480 silly addNameRange     '0.5.3',
+480 silly addNameRange     '0.5.4',
+480 silly addNameRange     '0.6.0',
+480 silly addNameRange     '0.6.1',
+480 silly addNameRange     '0.6.2',
+480 silly addNameRange     '0.6.3',
+480 silly addNameRange     '0.6.4',
+480 silly addNameRange     '0.6.5',
+480 silly addNameRange     '0.6.6',
+480 silly addNameRange     '0.6.7',
+480 silly addNameRange     '0.7.0-alpha',
+480 silly addNameRange     '0.7.0',
+480 silly addNameRange     '0.8.0',
+480 silly addNameRange     '0.8.1',
+480 silly addNameRange     '0.8.2',
+480 silly addNameRange     '0.8.3',
+480 silly addNameRange     '0.8.4',
+480 silly addNameRange     '0.8.5',
+480 silly addNameRange     '0.8.6',
+480 silly addNameRange     '0.9.0',
+480 silly addNameRange     '0.9.1',
+480 silly addNameRange     '0.9.2',
+480 silly addNameRange     '0.9.3',
+480 silly addNameRange     '0.9.4-rc1',
+480 silly addNameRange     '0.9.4',
+480 silly addNameRange     '0.9.5-rc1',
+480 silly addNameRange     '0.9.5',
+480 silly addNameRange     '0.9.6',
+480 silly addNameRange     '1.0.0',
+480 silly addNameRange     '1.0.1',
+480 silly addNameRange     '1.0.2-alpha',
+480 silly addNameRange     '1.0.2',
+480 silly addNameRange     '1.0.3',
+480 silly addNameRange     '1.1.0',
+480 silly addNameRange     '1.1.1',
+480 silly addNameRange     '1.1.2',
+480 silly addNameRange     '1.1.3',
+480 silly addNameRange     '1.1.4',
+480 silly addNameRange     '1.2.0',
+480 silly addNameRange     '1.2.1',
+480 silly addNameRange     '1.2.2',
+480 silly addNameRange     '1.2.3',
+480 silly addNameRange     '2.0.0-beta',
+480 silly addNameRange     '2.0.0',
+480 silly addNameRange     '2.0.1',
+480 silly addNameRange     '3.0.0-alpha.0',
+480 silly addNameRange     '3.0.0-beta.2',
+480 silly addNameRange     '3.0.0-beta.3',
+480 silly addNameRange     '3.0.0-beta.4',
+480 silly addNameRange     '2.1.0',
+480 silly addNameRange     '2.1.1',
+480 silly addNameRange     '3.0.0-beta.5',
+480 silly addNameRange     '3.0.0-beta.7',
+480 silly addNameRange     '3.0.0',
+480 silly addNameRange     '3.1.0',
+480 silly addNameRange     '3.1.1',
+480 silly addNameRange     '3.1.2',
+480 silly addNameRange     '3.2.0',
+480 silly addNameRange     '3.3.0',
+480 silly addNameRange     '3.3.1',
+480 silly addNameRange     '3.3.2',
+480 silly addNameRange     '3.3.3',
+480 silly addNameRange     '3.4.0-beta1',
+480 silly addNameRange     '3.4.0-beta.2',
+480 silly addNameRange     '3.4.0',
+480 silly addNameRange     '3.4.1',
+480 silly addNameRange     '3.4.2',
+480 silly addNameRange     '3.5.0-beta.1',
+480 silly addNameRange     '3.5.1',
+480 silly addNameRange     '3.5.2',
+480 silly addNameRange     '3.5.3',
+480 silly addNameRange     '3.6.0',
+480 silly addNameRange     '3.7.0',
+480 silly addNameRange     '3.8.0',
+480 silly addNameRange     '3.9.0',
+480 silly addNameRange     '3.9.1',
+480 silly addNameRange     '3.9.2',
+480 silly addNameRange     '3.9.3',
+480 silly addNameRange     '3.10.0',
+480 silly addNameRange     '3.10.0-1',
+480 silly addNameRange     '3.10.1',
+480 silly addNameRange     '3.11.0',
+480 silly addNameRange     '3.11.1',
+480 silly addNameRange     '3.11.2',
+480 silly addNameRange     ... 19 more items ] ]
+481 silly addNamed node-sass@3.13.1
+482 verbose addNamed "3.13.1" is a plain semver version for node-sass
+483 verbose get https://registry.npmjs.org/compression-webpack-plugin not expired, no request
+484 silly addNameRange number 2 { name: 'compression-webpack-plugin',
+484 silly addNameRange   range: '>=0.3.1 <0.4.0',
+484 silly addNameRange   hasData: true }
+485 silly addNameRange versions [ 'compression-webpack-plugin',
+485 silly addNameRange   [ '0.1.0',
+485 silly addNameRange     '0.1.1',
+485 silly addNameRange     '0.1.2',
+485 silly addNameRange     '0.2.0',
+485 silly addNameRange     '0.3.0',
+485 silly addNameRange     '0.3.1',
+485 silly addNameRange     '0.3.2',
+485 silly addNameRange     '0.4.0' ] ]
+486 silly addNamed compression-webpack-plugin@0.3.2
+487 verbose addNamed "0.3.2" is a plain semver version for compression-webpack-plugin
+488 verbose get https://registry.npmjs.org/webpack not expired, no request
+489 silly addNameRange number 2 { name: 'webpack', range: '>=1.14.0 <2.0.0', hasData: true }
+490 silly addNameRange versions [ 'webpack',
+490 silly addNameRange   [ '0.1.0',
+490 silly addNameRange     '0.1.1',
+490 silly addNameRange     '0.1.2',
+490 silly addNameRange     '0.1.3',
+490 silly addNameRange     '0.1.4',
+490 silly addNameRange     '0.1.5',
+490 silly addNameRange     '0.1.6',
+490 silly addNameRange     '0.2.0',
+490 silly addNameRange     '0.2.1',
+490 silly addNameRange     '0.2.2',
+490 silly addNameRange     '0.2.3',
+490 silly addNameRange     '0.2.4',
+490 silly addNameRange     '0.2.6',
+490 silly addNameRange     '0.2.7',
+490 silly addNameRange     '0.2.8',
+490 silly addNameRange     '0.3.0',
+490 silly addNameRange     '0.3.1',
+490 silly addNameRange     '0.3.2',
+490 silly addNameRange     '0.3.3',
+490 silly addNameRange     '0.3.4',
+490 silly addNameRange     '0.3.6',
+490 silly addNameRange     '0.3.7',
+490 silly addNameRange     '0.3.8',
+490 silly addNameRange     '0.3.9',
+490 silly addNameRange     '0.3.10',
+490 silly addNameRange     '0.3.11',
+490 silly addNameRange     '0.3.12',
+490 silly addNameRange     '0.3.13',
+490 silly addNameRange     '0.3.14',
+490 silly addNameRange     '0.3.15',
+490 silly addNameRange     '0.3.16',
+490 silly addNameRange     '0.3.17',
+490 silly addNameRange     '0.3.18',
+490 silly addNameRange     '0.3.19',
+490 silly addNameRange     '0.3.20',
+490 silly addNameRange     '0.4.0',
+490 silly addNameRange     '0.4.1',
+490 silly addNameRange     '0.4.2',
+490 silly addNameRange     '0.4.3',
+490 silly addNameRange     '0.4.4',
+490 silly addNameRange     '0.4.5',
+490 silly addNameRange     '0.4.6',
+490 silly addNameRange     '0.4.7',
+490 silly addNameRange     '0.4.8',
+490 silly addNameRange     '0.4.9',
+490 silly addNameRange     '0.4.10',
+490 silly addNameRange     '0.4.11',
+490 silly addNameRange     '0.4.12',
+490 silly addNameRange     '0.4.13',
+490 silly addNameRange     '0.4.14',
+490 silly addNameRange     '0.4.15',
+490 silly addNameRange     '0.4.16',
+490 silly addNameRange     '0.4.17',
+490 silly addNameRange     '0.4.18',
+490 silly addNameRange     '0.4.19',
+490 silly addNameRange     '0.4.20',
+490 silly addNameRange     '0.4.21',
+490 silly addNameRange     '0.4.23',
+490 silly addNameRange     '0.4.24',
+490 silly addNameRange     '0.4.25',
+490 silly addNameRange     '0.5.0',
+490 silly addNameRange     '0.5.1',
+490 silly addNameRange     '0.5.2',
+490 silly addNameRange     '0.5.3',
+490 silly addNameRange     '0.5.4',
+490 silly addNameRange     '0.5.5',
+490 silly addNameRange     '0.5.6',
+490 silly addNameRange     '0.5.7',
+490 silly addNameRange     '0.5.8',
+490 silly addNameRange     '0.5.10',
+490 silly addNameRange     '0.6.0',
+490 silly addNameRange     '0.6.1',
+490 silly addNameRange     '0.6.2',
+490 silly addNameRange     '0.7.0-beta',
+490 silly addNameRange     '0.7.0-beta2',
+490 silly addNameRange     '0.7.0-beta3',
+490 silly addNameRange     '0.7.0-beta4',
+490 silly addNameRange     '0.7.0-beta5',
+490 silly addNameRange     '0.7.0-beta6',
+490 silly addNameRange     '0.7.0-beta7',
+490 silly addNameRange     '0.7.0-beta8',
+490 silly addNameRange     '0.7.0',
+490 silly addNameRange     '0.7.1',
+490 silly addNameRange     '0.7.2',
+490 silly addNameRange     '0.7.3',
+490 silly addNameRange     '0.7.4',
+490 silly addNameRange     '0.7.5',
+490 silly addNameRange     '0.7.6',
+490 silly addNameRange     '0.7.7',
+490 silly addNameRange     '0.7.8',
+490 silly addNameRange     '0.7.9',
+490 silly addNameRange     '0.7.11',
+490 silly addNameRange     '0.7.12',
+490 silly addNameRange     '0.7.13',
+490 silly addNameRange     '0.7.14',
+490 silly addNameRange     '0.7.15',
+490 silly addNameRange     '0.7.16',
+490 silly addNameRange     '0.7.17',
+490 silly addNameRange     '0.8.0-beta1',
+490 silly addNameRange     '0.8.0-beta2',
+490 silly addNameRange     ... 343 more items ] ]
+491 silly addNamed webpack@1.15.0
+492 verbose addNamed "1.15.0" is a plain semver version for webpack
+493 silly mapToRegistry name sass-loader
+494 silly mapToRegistry using default registry
+495 silly mapToRegistry registry https://registry.npmjs.org/
+496 silly mapToRegistry data Result {
+496 silly mapToRegistry   raw: 'sass-loader',
+496 silly mapToRegistry   scope: null,
+496 silly mapToRegistry   escapedName: 'sass-loader',
+496 silly mapToRegistry   name: 'sass-loader',
+496 silly mapToRegistry   rawSpec: '',
+496 silly mapToRegistry   spec: 'latest',
+496 silly mapToRegistry   type: 'tag' }
+497 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+498 verbose addRemoteTarball https://registry.npmjs.org/sass-loader/-/sass-loader-4.1.1.tgz not in flight; adding
+499 verbose addRemoteTarball [ 'https://registry.npmjs.org/sass-loader/-/sass-loader-4.1.1.tgz',
+499 verbose addRemoteTarball   '79ef9468cf0bf646c29529e1f2cba6bd6e51c7bc' ]
+500 silly cache afterAdd bootstrap-sass@3.3.7
+501 verbose afterAdd /Users/kuba/.npm/bootstrap-sass/3.3.7/package/package.json not in flight; writing
+502 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+503 silly mapToRegistry name webpack
+504 silly mapToRegistry using default registry
+505 silly mapToRegistry registry https://registry.npmjs.org/
+506 silly mapToRegistry data Result {
+506 silly mapToRegistry   raw: 'webpack',
+506 silly mapToRegistry   scope: null,
+506 silly mapToRegistry   escapedName: 'webpack',
+506 silly mapToRegistry   name: 'webpack',
+506 silly mapToRegistry   rawSpec: '',
+506 silly mapToRegistry   spec: 'latest',
+506 silly mapToRegistry   type: 'tag' }
+507 silly mapToRegistry uri https://registry.npmjs.org/webpack
+508 verbose addRemoteTarball https://registry.npmjs.org/webpack/-/webpack-1.15.0.tgz not in flight; adding
+509 verbose addRemoteTarball [ 'https://registry.npmjs.org/webpack/-/webpack-1.15.0.tgz',
+509 verbose addRemoteTarball   '4ff31f53db03339e55164a9d468ee0324968fe98' ]
+510 verbose get https://registry.npmjs.org/font-awesome not expired, no request
+511 silly addNameRange number 2 { name: 'font-awesome', range: '>=4.6.3 <5.0.0', hasData: true }
+512 silly addNameRange versions [ 'font-awesome',
+512 silly addNameRange   [ '3.2.1',
+512 silly addNameRange     '4.0.3',
+512 silly addNameRange     '4.1.0',
+512 silly addNameRange     '4.2.0',
+512 silly addNameRange     '4.3.0',
+512 silly addNameRange     '4.4.0',
+512 silly addNameRange     '4.5.0',
+512 silly addNameRange     '4.6.1',
+512 silly addNameRange     '4.6.3',
+512 silly addNameRange     '4.7.0' ] ]
+513 silly addNamed font-awesome@4.7.0
+514 verbose addNamed "4.7.0" is a plain semver version for font-awesome
+515 silly cache afterAdd copy-webpack-plugin@3.0.1
+516 verbose afterAdd /Users/kuba/.npm/copy-webpack-plugin/3.0.1/package/package.json not in flight; writing
+517 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+518 silly cache afterAdd extract-text-webpack-plugin@1.0.1
+519 verbose afterAdd /Users/kuba/.npm/extract-text-webpack-plugin/1.0.1/package/package.json not in flight; writing
+520 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+521 silly cache afterAdd css-loader@0.23.1
+522 verbose afterAdd /Users/kuba/.npm/css-loader/0.23.1/package/package.json not in flight; writing
+523 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+524 silly cache afterAdd jquery@2.2.4
+525 verbose afterAdd /Users/kuba/.npm/jquery/2.2.4/package/package.json not in flight; writing
+526 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+527 silly cache afterAdd url-loader@0.5.8
+528 verbose afterAdd /Users/kuba/.npm/url-loader/0.5.8/package/package.json not in flight; writing
+529 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+530 silly cache afterAdd style-loader@0.13.2
+531 verbose afterAdd /Users/kuba/.npm/style-loader/0.13.2/package/package.json not in flight; writing
+532 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+533 silly cache afterAdd file-loader@0.9.0
+534 verbose afterAdd /Users/kuba/.npm/file-loader/0.9.0/package/package.json not in flight; writing
+535 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+536 verbose afterAdd /Users/kuba/.npm/bootstrap-sass/3.3.7/package/package.json written
+537 verbose afterAdd /Users/kuba/.npm/copy-webpack-plugin/3.0.1/package/package.json written
+538 silly cache afterAdd compression-webpack-plugin@0.3.2
+539 verbose afterAdd /Users/kuba/.npm/compression-webpack-plugin/0.3.2/package/package.json not in flight; writing
+540 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+541 silly cache afterAdd node-sass@3.13.1
+542 verbose afterAdd /Users/kuba/.npm/node-sass/3.13.1/package/package.json not in flight; writing
+543 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+544 silly cache afterAdd font-awesome@4.7.0
+545 verbose afterAdd /Users/kuba/.npm/font-awesome/4.7.0/package/package.json not in flight; writing
+546 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+547 verbose afterAdd /Users/kuba/.npm/extract-text-webpack-plugin/1.0.1/package/package.json written
+548 info retry fetch attempt 1 at 14:40:54
+549 info attempt registry request try #1 at 14:40:54
+550 http fetch GET https://registry.npmjs.org/sass-loader/-/sass-loader-4.1.1.tgz
+551 verbose afterAdd /Users/kuba/.npm/css-loader/0.23.1/package/package.json written
+552 info retry fetch attempt 1 at 14:40:54
+553 info attempt registry request try #1 at 14:40:54
+554 http fetch GET https://registry.npmjs.org/webpack/-/webpack-1.15.0.tgz
+555 verbose afterAdd /Users/kuba/.npm/jquery/2.2.4/package/package.json written
+556 verbose afterAdd /Users/kuba/.npm/url-loader/0.5.8/package/package.json written
+557 verbose afterAdd /Users/kuba/.npm/style-loader/0.13.2/package/package.json written
+558 verbose afterAdd /Users/kuba/.npm/file-loader/0.9.0/package/package.json written
+559 verbose afterAdd /Users/kuba/.npm/font-awesome/4.7.0/package/package.json written
+560 verbose afterAdd /Users/kuba/.npm/compression-webpack-plugin/0.3.2/package/package.json written
+561 verbose afterAdd /Users/kuba/.npm/node-sass/3.13.1/package/package.json written
+562 http fetch 200 https://registry.npmjs.org/sass-loader/-/sass-loader-4.1.1.tgz
+563 http fetch 200 https://registry.npmjs.org/webpack/-/webpack-1.15.0.tgz
+564 silly fetchAndShaCheck shasum 79ef9468cf0bf646c29529e1f2cba6bd6e51c7bc
+565 verbose addTmpTarball /var/folders/zv/zw21jlrj6tb8ht6g32x3ms8w0000gn/T/npm-33049-7bd13953/registry.npmjs.org/sass-loader/-/sass-loader-4.1.1.tgz not in flight; adding
+566 verbose addTmpTarball already have metadata; skipping unpack for sass-loader@4.1.1
+567 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+568 silly cache afterAdd sass-loader@4.1.1
+569 verbose afterAdd /Users/kuba/.npm/sass-loader/4.1.1/package/package.json not in flight; writing
+570 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+571 verbose afterAdd /Users/kuba/.npm/sass-loader/4.1.1/package/package.json written
+572 silly fetchAndShaCheck shasum 4ff31f53db03339e55164a9d468ee0324968fe98
+573 verbose addTmpTarball /var/folders/zv/zw21jlrj6tb8ht6g32x3ms8w0000gn/T/npm-33049-7bd13953/registry.npmjs.org/webpack/-/webpack-1.15.0.tgz not in flight; adding
+574 verbose addTmpTarball already have metadata; skipping unpack for webpack@1.15.0
+575 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+576 silly cache afterAdd webpack@1.15.0
+577 verbose afterAdd /Users/kuba/.npm/webpack/1.15.0/package/package.json not in flight; writing
+578 verbose correctMkdir /Users/kuba/.npm correctMkdir not in flight; initializing
+579 verbose afterAdd /Users/kuba/.npm/webpack/1.15.0/package/package.json written
+580 silly rollbackFailedOptional Starting
+581 silly rollbackFailedOptional Finishing
+582 silly runTopLevelLifecycles Starting
+583 silly runTopLevelLifecycles Finishing
+584 silly install printInstalled
+585 verbose stack Error: ENOENT: no such file or directory, open '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix'
+585 verbose stack     at Error (native)
+586 verbose cwd /Users/kuba/htdocs/phoenix/phoenix-forms/apps/app
+587 error Darwin 16.4.0
+588 error argv "/usr/local/Cellar/node/6.3.1/bin/node" "/usr/local/bin/npm" "install"
+589 error node v6.3.1
+590 error npm  v3.10.3
+591 error path /Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix
+592 error code ENOENT
+593 error errno -2
+594 error syscall open
+595 error enoent ENOENT: no such file or directory, open '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix'
+596 error enoent ENOENT: no such file or directory, open '/Users/kuba/htdocs/phoenix/phoenix-forms/apps/app/deps/phoenix'
+596 error enoent This is most likely not a problem with npm itself
+596 error enoent and is related to npm not being able to find a file.
+597 verbose exit [ -2, true ]
