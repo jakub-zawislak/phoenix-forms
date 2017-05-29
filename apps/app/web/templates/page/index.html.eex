@@ -3,34 +3,46 @@
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
 </div>
 
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
+<!--<%= form_for @conn, page_path(@conn, :index), [as: :search], fn f -> %>
+  <%= text_input f, :name %>
 
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
-</div>
+  <%= inputs_for f, :kolekcja, [], fn ff -> %>
+    <%= text_input ff, :asd %>
+    <%= inputs_for ff, :kolekcja_kolekcji, [], fn fff -> %>
+      <%= text_input fff, :zxc %>
+    <% end %>
+  <% end %>
+
+  <%= submit "Search" %>
+<% end %>-->
+
+<%
+fake_params = %{"user" => %{
+    "name" => "imię",
+    "addresses" => %{
+      "0" => %{"city" => "f", "street" => "f"},
+      "1" => %{"city" => "frt", "street" => "f"},
+    },
+  },
+}
+fake_conn = %Plug.Conn{params: fake_params, method: "POST"}
+%>
+
+<%= form_for fake_conn, "", [as: :user], fn f -> %>
+  <%= text_input f, :name %>
+
+  <%# inputs_for f, :address, fn ff -> %>
+    <%# text_input ff, :street %>
+    <%# text_input ff, :city %>
+  <%# end %>
+
+  <%= inputs_for f, :addresses, [default: []], fn ff -> %>
+    <div>
+      <%= text_input ff, :street %>
+      <%= text_input ff, :city %>
+    </div>
+  <% end %>
+  
+  <%= submit "Search" %>
+<% end %>
+

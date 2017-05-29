@@ -53,7 +53,7 @@
   <div class="tab-content">
     <div class="tab-pane active" id="schools">
       <div class="form-horizontal">
-        <%# formex_collection f, :schools, template: Formex.Template.BootstrapHorizontal %>
+        <%= formex_collection f, :schools, template: Formex.Template.BootstrapHorizontal %>
       </div>
     </div>
   </div>

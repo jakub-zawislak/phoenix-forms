@@ -37,6 +37,7 @@ defmodule App.CategoryController do
   def edit(conn, %{"id" => id}) do
     category = Repo.get!(Category, id)
     form = create_form(App.CategoryType, category)
+    IO.inspect form.changeset
     render(conn, "edit.html", category: category, form: form)
   end
 

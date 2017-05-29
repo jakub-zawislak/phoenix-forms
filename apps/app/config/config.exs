@@ -25,11 +25,20 @@ config :logger, :console,
 config :formex,
   repo: App.Repo,
   translate_error: &App.ErrorHelpers.translate_error/1,
-  template: Formex.Template.BootstrapVertical
+  template: Formex.Template.BootstrapVertical,
+  validator: Formex.Validator.Vex
   # template_options: [
   #   left_column: "col-xs-2",
   #   right_column: "col-xs-10"
   # ]
+
+config :money,
+  default_currency: :PLN,
+  separator: ".",
+  delimeter: ",",
+  symbol: false,
+  symbol_on_right: false,
+  symbol_space: false
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

@@ -42,8 +42,11 @@ defmodule App.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:ecto, "~> 2.0"},
-     {:formex, in_umbrella: true}
+     {:ecto, "~> 2.1"},
+     {:formex, in_umbrella: true},
+     {:money, "~> 1.2.1"},
+     {:validex, "~> 0.1.0"},
+     {:vex, "~> 0.6.0"}
     ]
   end
 

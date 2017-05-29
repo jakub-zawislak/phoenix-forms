@@ -15,7 +15,7 @@ defmodule App.UserType do
     |> add(:user_accounts, App.UserAccountType, delete_field: :removed, filter: fn item ->
       !item.removed
     end)
-    # |> add(:schools, App.UserSchoolType)
+    |> add(:schools, App.UserSchoolType)
 
   end
 

@@ -1,10 +1,10 @@
-<%= formex_form_for @form, registration_path(@conn, :register), fn f -> %>
+<%= if assigns[:error] do %>
+  <div class="alert alert-danger">
+    oops
+  </div>
+<% end %>
 
-  <%= if @form.changeset.action do %>
-    <div class="alert alert-danger">
-      <p>Oops, something went wrong! Please check the errors below.</p>
-    </div>
-  <% end %>
+<%= formex_form_for @form, registration_path(@conn, :register), [as: :registration], fn f -> %>
 
   <%= formex_rows f %>
 

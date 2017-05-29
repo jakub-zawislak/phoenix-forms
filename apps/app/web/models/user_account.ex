@@ -8,7 +8,7 @@ defmodule App.UserAccount do
     belongs_to :user, App.User
 
     timestamps()
-    # formex_collection_child()
+    formex_collection_child()
   end
 
 end

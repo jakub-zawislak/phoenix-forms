@@ -10,10 +10,13 @@ defmodule App.User do
     has_many   :user_addresses, App.UserAddress
     has_many   :user_accounts, App.UserAccount
 
-    # embeds_many :schools, School do
-    #   field :name, :string
-    #   formex_collection_child()
-    # end
+    embeds_many :schools, School do
+      field :name, :string
+      belongs_to :department, App.Department
+      formex_collection_child()
+    end
+
+    field :money, Money.Ecto.Type
 
     timestamps()
   end
