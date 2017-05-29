@@ -2,3 +2,7 @@
 	path = apps/formex
 	url = git@github.com:jakub-zawislak/formex.git
 	branch = master
+[submodule "apps/formex_ecto"]
+	path = apps/formex_ecto
+	url = git@github.com:jakub-zawislak/formex_ecto.git
+	branch = master
