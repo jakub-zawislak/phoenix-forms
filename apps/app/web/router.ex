@@ -20,6 +20,8 @@ defmodule App.Router do
     post "/", PageController, :index
     get "/registration", RegistrationController, :index
     post "/registration", RegistrationController, :register
+    get "/article_without_ecto", ArticleWithoutEctoController, :new
+    post "/article_without_ecto", ArticleWithoutEctoController, :create
     post "/search", SearchController, :search
     resources "/articles", ArticleController
     resources "/categories", CategoryController

@@ -19,9 +19,14 @@
 <%
 fake_params = %{"user" => %{
     "name" => "imię",
-    "addresses" => %{
-      "0" => %{"city" => "f", "street" => "f"},
-      "1" => %{"city" => "frt", "street" => "f"},
+    "user_accounts" =>
+    %{
+    "0" => %{"formex_delete" => nil, "formex_id" => nil,
+      "id" => "3", "number" => "dfg2"},
+    "1" => %{"formex_delete" => true, "formex_id" => nil, "id" => "2",
+      "number" => "qwe"},
+    "2" => %{"formex_delete" => nil, "formex_id" => nil, "id" => "1",
+      "number" => "yy1"}
     },
   },
 }
@@ -36,13 +41,13 @@ fake_conn = %Plug.Conn{params: fake_params, method: "POST"}
     <%# text_input ff, :city %>
   <%# end %>
 
-  <%= inputs_for f, :addresses, [default: []], fn ff -> %>
+  <%= inputs_for f, :user_accounts, [default: []], fn ff -> %>
     <div>
-      <%= text_input ff, :street %>
-      <%= text_input ff, :city %>
+      <%= text_input ff, :number %>
+      <%# text_input ff, :city %>
     </div>
   <% end %>
-  
+
   <%= submit "Search" %>
 <% end %>
 

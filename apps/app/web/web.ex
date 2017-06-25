@@ -19,7 +19,7 @@ defmodule App.Web do
   def model do
     quote do
       use Ecto.Schema
-      use Formex.Schema
+      use Formex.Ecto.Schema
 
       import Ecto
       import Ecto.Changeset
@@ -38,6 +38,7 @@ defmodule App.Web do
       import App.Router.Helpers
       import App.Gettext
       use Formex.Controller
+      use Formex.Ecto.Controller
     end
   end
 

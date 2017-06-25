@@ -1,5 +1,6 @@
 defmodule App.RegistrationAddressType do
   use Formex.Type
+  use Formex.Ecto.Type
 
   def build_form( form ) do
     form

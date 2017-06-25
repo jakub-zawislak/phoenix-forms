@@ -37,6 +37,9 @@ defmodule App.ArticleController do
   def edit(conn, %{"id" => id}) do
     article = Repo.get!(Article, id)
 
+    IO.inspect Ecto.Changeset.change(article).data.__meta__.state
+    IO.inspect Ecto.Changeset.change(%Article{}).data.__meta__.state
+
     form = create_form(App.ArticleType, article)
 
     render(conn, "edit.html", article: article, form: form)

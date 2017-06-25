@@ -1,13 +1,14 @@
 defmodule App.UserInfoType do
   use Formex.Type
-  alias Formex.CustomField.SelectAssoc
+  use Formex.Ecto.Type
+  alias Formex.Ecto.CustomField.SelectAssoc
 
   def build_form( form ) do
 
     form
-    |> add(:section, :text_input, label: "Sekcja")
-    |> add(:organisation_cell, :text_input, label: "Komórka organizacyjna")
-    |> add(:organisation_unit, :text_input, label: "Jednostka organizacyjna")
+    |> add(:section, :text_input, label: "Sekcja", validation: [presence: :true])
+    |> add(:organisation_cell, :text_input, label: "Komórka organizacyjna", validation: [presence: :true])
+    |> add(:organisation_unit, :text_input, label: "Jednostka organizacyjna", validation: [presence: :true])
 
   end
 

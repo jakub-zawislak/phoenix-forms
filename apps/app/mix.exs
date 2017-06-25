@@ -43,10 +43,10 @@ defmodule App.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:ecto, "~> 2.1"},
-     {:formex, in_umbrella: true},
+     {:formex, in_umbrella: true, override: true},
+     {:formex_vex, in_umbrella: true},
      {:money, "~> 1.2.1"},
-     {:validex, "~> 0.1.0"},
-     {:vex, "~> 0.6.0"}
+     {:validex, "~> 0.1.0"}
     ]
   end
 

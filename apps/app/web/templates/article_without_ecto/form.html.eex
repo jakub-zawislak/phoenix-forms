@@ -1,0 +1,10 @@
+<%= formex_form_for @form, article_without_ecto_path(@conn, :create), [as: :article], fn f -> %>
+  <%= if @form.submitted? do %>Oops, something went wrong!<% end %>
+
+  <%= formex_row f, :title %>
+  <%= formex_row f, :content %>
+  <%= formex_row f, :hidden %>
+  <%= formex_row f, :save %>
+
+  <%# or generate all fields at once: formex_rows f %>
+<% end %>

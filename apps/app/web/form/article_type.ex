@@ -1,11 +1,12 @@
 defmodule App.ArticleType do
   use Formex.Type
-  alias Formex.CustomField.SelectAssoc
+  use Formex.Ecto.Type
+  alias Formex.Ecto.CustomField.SelectAssoc
 
   def build_form(form) do
     form
-    |> add(:name, :text_input, label: "Title")
-    |> add(:content, :textarea, label: "Content")
+    |> add(:name, :text_input, label: "Title", validation: [presence: :true, length: [in: 10..150]])
+    |> add(:content, :textarea, label: "Content", validation: [presence: :true])
     # |> add(:user_id, SelectAssoc, label: "Author", choice_label: :first_name, phoenix_opts: [
     #   prompt: "Choose an author"
     # ])
@@ -20,10 +21,6 @@ defmodule App.ArticleType do
     |> add(:save, :submit, label: "Zapisz", phoenix_opts: [
       class: "btn-primary"
     ])
-  end
-
-  def changeset_after_create_callback( changeset ) do
-    changeset
   end
 
 end
