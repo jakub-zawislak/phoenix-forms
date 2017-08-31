@@ -1,5 +1,5 @@
 <%= formex_form_for @form, @action, fn f -> %>
-  <%= if @form.changeset.action do %>
+  <%= if @form.valid? do %>
     <div class="alert alert-danger">
       <p>Oops, something went wrong! Please check the errors below.</p>
     </div>

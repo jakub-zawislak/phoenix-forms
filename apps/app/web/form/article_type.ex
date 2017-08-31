@@ -23,4 +23,10 @@ defmodule App.ArticleType do
     ])
   end
 
+  def changeset_after_create_callback(changeset, _form) do
+    IO.inspect changeset.data
+
+    changeset
+  end
+
 end
