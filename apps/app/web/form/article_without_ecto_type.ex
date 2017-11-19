@@ -3,7 +3,7 @@ defmodule App.ArticleWithoutEctoType do
 
   def build_form(form) do
     form
-    |> add(:title, :text_input, label: "Title", validation: [presence: true])
+    |> add(:name, :text_input, label: "Title", validation: [presence: true], struct_name: :title)
     |> add(:content, :textarea, label: "Content", validation: [presence: true], phoenix_opts: [
       rows: 4
     ])

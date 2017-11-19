@@ -20,7 +20,7 @@ defmodule App.UserType do
     #   prompt: "Wybierz dział"
     # ])
     |> add(:user_info, App.UserInfoType)
-    # |> add(:user_addresses, App.UserAddressType)
+    |> add(:user_addresses, App.UserAddressType)
     # |> add(:user_accounts, App.UserAccountType, delete_field: :removed, filter: fn item ->
     #   !item.removed
     # end)
@@ -33,9 +33,9 @@ defmodule App.UserType do
 
   def changeset_validation(changeset, _form) do
     changeset
-    |> add_error(:first_name, "yy\n!!")
-    |> add_error(:first_name, "ee ee")
-    |> add_error(:last_name, "aaa")
+    # |> add_error(:first_name, "yy\n!!")
+    # |> add_error(:first_name, "ee ee")
+    # |> add_error(:last_name, "aaa")
   end
 
 end

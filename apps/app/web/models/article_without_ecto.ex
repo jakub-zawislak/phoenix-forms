@@ -1,7 +1,7 @@
 defmodule App.ArticleWithoutEcto do
   use Vex.Struct
 
-  defstruct [:title, :content, :hidden]
+  defstruct [{:title, "title default"}, :content, :hidden]
 
   validates :title, presence: true,
                     length: [min: 4]

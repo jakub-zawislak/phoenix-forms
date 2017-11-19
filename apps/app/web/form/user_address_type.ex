@@ -4,8 +4,9 @@ defmodule App.UserAddressType do
 
   def build_form(form) do
     form
-    |> add(:street, :text_input, label: "Ulica", validation: [presence: :true])
+    |> add(:ulica, :text_input, label: "Ulica", validation: [presence: :true], struct_name: :street)
     # |> add(:postal_code, :text_input, label: "Kod pocztowy", validation: [presence: :true])
     |> add(:city, :text_input, label: "Miasto", validation: [presence: :true])
+    |> add(:user_address_tags, App.UserAddressTagType)
   end
 end

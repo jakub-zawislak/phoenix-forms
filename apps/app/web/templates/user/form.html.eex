@@ -23,7 +23,39 @@
   <div class="tab-content">
     <div class="tab-pane active" id="address">
       <div class="form-horizontal">
-        <%# formex_collection f, :user_addresses, template: Formex.Template.BootstrapHorizontal %>
+
+        <% collection = fn collection -> %>
+          <div class="form-horizontal">
+            <%= formex_collection_items collection %>
+            <%= formex_collection_add collection, "Add" %>
+          </div>
+        <% end %>
+
+        <% collection_item = fn subform -> %>
+          <%= formex_collection_remove {:safe, "&times;"}, "Are you sure you want to remove?" %>
+          <%= formex_row subform, :ulica %>
+          <%= formex_row subform, :city %>
+
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="active">
+              <a href="#accounts" data-toggle="tab">
+                Tagi
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="accounts">
+              <div class="form-horizontal">
+                <%= formex_collection subform, :user_address_tags, [template: Formex.Template.BootstrapHorizontal] %>
+              </div>
+            </div>
+          </div>
+
+        <% end %>
+
+        <%= formex_collection f, :user_addresses, [template: Formex.Template.BootstrapHorizontal],
+          collection, collection_item %>
+
       </div>
     </div>
   </div>

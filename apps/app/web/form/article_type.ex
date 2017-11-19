@@ -5,7 +5,7 @@ defmodule App.ArticleType do
 
   def build_form(form) do
     form
-    |> add(:name, :text_input, label: "Title", validation: [presence: :true, length: [in: 10..150]])
+    |> add(:title, :text_input, label: "Title", validation: [presence: :true, length: [in: 10..150]], struct_name: :name)
     |> add(:content, :textarea, label: "Content", validation: [presence: :true])
     # |> add(:user_id, SelectAssoc, label: "Author", choice_label: :first_name, phoenix_opts: [
     #   prompt: "Choose an author"
@@ -24,8 +24,6 @@ defmodule App.ArticleType do
   end
 
   def changeset_after_create_callback(changeset, _form) do
-    IO.inspect changeset.data
-
     changeset
   end
 

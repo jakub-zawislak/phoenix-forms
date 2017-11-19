@@ -7,6 +7,7 @@ defmodule App.UserAddress do
     field :city, :string
 
     belongs_to :user, App.User
+    has_many   :user_address_tags, App.UserAddressTag
 
     timestamps()
     formex_collection_child()
