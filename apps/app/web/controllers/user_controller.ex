@@ -2,6 +2,7 @@ defmodule App.UserController do
   use App.Web, :controller
 
   alias App.User
+  alias App.Country
 
   def index(conn, _params) do
     users = Repo.all(User)
@@ -95,5 +96,18 @@ defmodule App.UserController do
     conn
     |> put_flash(:info, "User deleted successfully.")
     |> redirect(to: user_path(conn, :index))
+  end
+
+  def select_countries(conn, %{"q" => query}) do
+    result = Country
+    |> Country.by_name(query)
+    |> Repo.all
+    |> Enum.map(fn country -> %{
+      "value" => country.id,
+      "text"  => country.name
+     } end)
+
+    conn
+    |> json(result)
   end
 end

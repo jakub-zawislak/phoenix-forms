@@ -2,7 +2,7 @@ defmodule App.Router do
   use App.Web, :router
 
   pipeline :browser do
-    plug :accepts, ["html"]
+    plug :accepts, ["html", "json"]
     plug :fetch_session
     plug :fetch_flash
     plug :protect_from_forgery
@@ -23,8 +23,11 @@ defmodule App.Router do
     get "/article_without_ecto", ArticleWithoutEctoController, :new
     post "/article_without_ecto", ArticleWithoutEctoController, :create
     post "/search", SearchController, :search
+    get "/articles/select_categories", ArticleController, :select_categories
+    get "/articles/select_tags", ArticleController, :select_tags
     resources "/articles", ArticleController
     resources "/categories", CategoryController
+    get "/users/select_categories", UserController, :select_countries
     resources "/users", UserController
     resources "/department", DepartmentController
     resources "/tags", TagController

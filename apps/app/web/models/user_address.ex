@@ -6,6 +6,7 @@ defmodule App.UserAddress do
     field :postal_code, :string
     field :city, :string
 
+    belongs_to :country, App.Country
     belongs_to :user, App.User
     has_many   :user_address_tags, App.UserAddressTag
 

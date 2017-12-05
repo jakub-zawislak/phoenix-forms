@@ -2,7 +2,9 @@
   "repository": {},
   "private": true,
   "dependencies": {
+    "ajax-bootstrap-select": "^1.4.3",
     "bootstrap-sass": "^3.3.6",
+    "bootstrap-select": "^1.12.4",
     "compression-webpack-plugin": "^0.3.1",
     "copy-webpack-plugin": "^3.0.1",
     "css-loader": "^0.23.1",

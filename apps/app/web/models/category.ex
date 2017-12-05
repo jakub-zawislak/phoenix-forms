@@ -12,4 +12,11 @@ defmodule App.Category do
     |> cast(params, [:name])
     |> validate_required([:name])
   end
+
+  def by_name(query, name) do
+    name = "%#{name}%"
+
+    from e in query,
+      where: like(e.name, ^name)
+  end
 end

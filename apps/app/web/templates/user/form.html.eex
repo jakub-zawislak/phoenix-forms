@@ -35,6 +35,7 @@
           <%= formex_collection_remove {:safe, "&times;"}, "Are you sure you want to remove?" %>
           <%= formex_row subform, :ulica %>
           <%= formex_row subform, :city %>
+          <%= formex_row subform, :country_id %>
 
           <ul class="nav nav-tabs" role="tablist">
             <li class="active">

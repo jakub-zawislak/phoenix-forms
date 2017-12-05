@@ -6,7 +6,8 @@ module.exports = {
   entry: {
     app: [
       "./apps/app/web/static/scss/main.scss",
-      "./apps/app/web/static/scss/bootstrap.scss",
+      "./apps/app/web/static/scss/vendor.scss",
+      "./apps/app/web/static/js/vendor.js",
       "./apps/app/web/static/js/app.js"
     ],
   },
@@ -39,6 +40,10 @@ module.exports = {
 
   resolve: {
     modules: [ "node_modules", "apps", __dirname + "/web/static/js" ] // eslint-disable-line no-undef
+  },
+
+  externals: {
+    jquery: 'jQuery'
   },
 
   plugins: [

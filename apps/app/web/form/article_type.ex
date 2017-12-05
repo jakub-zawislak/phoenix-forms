@@ -10,10 +10,36 @@ defmodule App.ArticleType do
     # |> add(:user_id, SelectAssoc, label: "Author", choice_label: :first_name, phoenix_opts: [
     #   prompt: "Choose an author"
     # ])
-    |> add(:category_id, SelectAssoc, label: "Category", phoenix_opts: [
-      prompt: "Choose a category"
+    # |> add(:category_id, SelectAssoc, label: "Category", phoenix_opts: [
+    #   prompt: "Choose a category"
+    # ])
+    |> add(:category_id, SelectAssoc, label: "Category", without_choices: true, phoenix_opts: [
+      class: "select",
+      data: [
+        live_search: true,
+        abs_ajax_url: App.Router.Helpers.article_path(App.Endpoint, :select_categories),
+        abs_ajax_type: "GET",
+        abs_ajax_data_type: "json",
+      ]
     ])
-    |> add(:tags, SelectAssoc, label: "Tags")
+    # |> add(:category_id, :select, label: "Category", phoenix_opts: [
+    #   class: "select",
+    #   data: [
+    #     live_search: true,
+    #     abs_ajax_url: App.Router.Helpers.article_path(App.Endpoint, :select_categories),
+    #     abs_ajax_type: "GET",
+    #     abs_ajax_data_type: "json",
+    #   ]
+    # ], without_choices: true)
+    |> add(:tags, SelectAssoc, label: "Tags", without_choices: true, phoenix_opts: [
+      class: "select",
+      data: [
+        live_search: true,
+        abs_ajax_url: App.Router.Helpers.article_path(App.Endpoint, :select_tags),
+        abs_ajax_type: "GET",
+        abs_ajax_data_type: "json",
+      ]
+    ])
     |> add(:visible, :checkbox, label: "Is hidden?", required: false)
     # |> add_button(:submit, if(form.struct.id, do: "Edit", else: "Add"), phoenix_opts: [
     #   class: "btn-primary"

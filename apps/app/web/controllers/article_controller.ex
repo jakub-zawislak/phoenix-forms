@@ -2,6 +2,8 @@ defmodule App.ArticleController do
   use App.Web, :controller
 
   alias App.Article
+  alias App.Category
+  alias App.Tag
 
   def index(conn, _params) do
     articles = Repo.all(Article)
@@ -71,5 +73,31 @@ defmodule App.ArticleController do
     conn
     |> put_flash(:info, "Article deleted successfully.")
     |> redirect(to: article_path(conn, :index))
+  end
+
+  def select_categories(conn, %{"q" => query}) do
+    result = Category
+    |> Category.by_name(query)
+    |> Repo.all
+    |> Enum.map(fn category -> %{
+      "value" => category.id,
+      "text"  => category.name
+     } end)
+
+    conn
+    |> json(result)
+  end
+
+  def select_tags(conn, %{"q" => query}) do
+    result = Tag
+    |> Tag.by_name(query)
+    |> Repo.all
+    |> Enum.map(fn tag -> %{
+      "value" => tag.id,
+      "text"  => tag.name
+     } end)
+
+    conn
+    |> json(result)
   end
 end

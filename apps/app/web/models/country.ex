@@ -1,7 +1,7 @@
-defmodule App.Tag do
+defmodule App.Country do
   use App.Web, :model
 
-  schema "tags" do
+  schema "countries" do
     field :name, :string
 
     timestamps()
