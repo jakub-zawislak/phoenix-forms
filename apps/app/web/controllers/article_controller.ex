@@ -76,12 +76,11 @@ defmodule App.ArticleController do
   end
 
   def select_categories(conn, %{"q" => query}) do
-    result = Category
-    |> Category.by_name(query)
-    |> Repo.all
-    |> Enum.map(fn category -> %{
-      "value" => category.id,
-      "text"  => category.name
+    result = create_form(App.ArticleType, %Article{})
+    |> Formex.Ecto.CustomField.SelectAssoc.search(:category_id, query)
+    |> Enum.map(fn {label, id} -> %{
+      "value" => id,
+      "text"  => label
      } end)
 
     conn
@@ -89,12 +88,11 @@ defmodule App.ArticleController do
   end
 
   def select_tags(conn, %{"q" => query}) do
-    result = Tag
-    |> Tag.by_name(query)
-    |> Repo.all
-    |> Enum.map(fn tag -> %{
-      "value" => tag.id,
-      "text"  => tag.name
+    result = create_form(App.ArticleType, %Article{})
+    |> Formex.Ecto.CustomField.SelectAssoc.search(:tags, query)
+    |> Enum.map(fn {label, id} -> %{
+      "value" => id,
+      "text"  => label
      } end)
 
     conn

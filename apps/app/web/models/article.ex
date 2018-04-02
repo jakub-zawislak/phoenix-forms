@@ -5,6 +5,7 @@ defmodule App.Article do
     field :name, :string
     field :content, :string
     field :visible, :boolean
+    field :image, App.Article.Image.Type
 
     belongs_to :category, App.Category
     belongs_to :user, App.User

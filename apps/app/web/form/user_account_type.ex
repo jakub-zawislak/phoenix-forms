@@ -5,5 +5,6 @@ defmodule App.UserAccountType do
   def build_form(form) do
     form
     |> add(:number, :text_input, label: "Numer", validation: [presence: :true])
+    # |> add(:money, :text_input, custom_value: fn value -> value && value.amount end)
   end
 end

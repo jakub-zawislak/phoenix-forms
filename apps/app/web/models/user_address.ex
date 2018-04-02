@@ -5,6 +5,7 @@ defmodule App.UserAddress do
     field :street, :string
     field :postal_code, :string
     field :city, :string
+    field :image, App.Article.Image.Type
 
     belongs_to :country, App.Country
     belongs_to :user, App.User

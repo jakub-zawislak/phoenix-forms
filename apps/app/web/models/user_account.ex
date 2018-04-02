@@ -4,6 +4,7 @@ defmodule App.UserAccount do
   schema "user_accounts" do
     field :number, :string
     field :removed, :boolean
+    field :money, Money.Ecto.Type
 
     belongs_to :user, App.User
 

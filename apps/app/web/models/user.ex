@@ -4,6 +4,7 @@ defmodule App.User do
   schema "users" do
     field :first_name, :string
     field :last_name, :string
+    field :degrees, {:array, :string}
 
     belongs_to :department, App.Department
     belongs_to :user_info, App.UserInfo

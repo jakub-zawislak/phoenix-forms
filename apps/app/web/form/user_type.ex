@@ -16,11 +16,22 @@ defmodule App.UserType do
       # inclusion: [arg: 0..12]
       :required
     ])
+    |> add(:degrees, :multiple_select, label: "Degrees", validation: [:required], choices: [
+      bachelor: "Bachelor",
+      master: "Master",
+      doctor: "Doctor",
+      professor: "Professor",
+    ])
+    |> add(:money, :text_input, custom_value: fn value ->
+      value && value != "" && (value.amount / 100)
+      |> to_string
+      |> String.slice(0..-3)
+    end)
     # |> add(:department_id, SelectAssoc, label: "Dział", phoenix_opts: [
     #   prompt: "Wybierz dział"
     # ])
-    |> add(:user_info, App.UserInfoType)
-    |> add(:user_addresses, App.UserAddressType)
+    # |> add(:user_info, App.UserInfoType)
+    # |> add(:user_addresses, App.UserAddressType)
     # |> add(:user_accounts, App.UserAccountType, delete_field: :removed, filter: fn item ->
     #   !item.removed
     # end)

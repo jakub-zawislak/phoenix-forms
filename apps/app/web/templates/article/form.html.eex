@@ -5,6 +5,7 @@
     #   left_column: "col-xs-2",
     #   right_column: "col-xs-10"
     # ]
+    multipart: true
   ], fn f -> %>
 
   <%= if @form.submitted? do %>
