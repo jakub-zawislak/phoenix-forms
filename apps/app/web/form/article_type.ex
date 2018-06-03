@@ -53,8 +53,10 @@ defmodule App.ArticleType do
     ])
   end
 
-  def changeset_after_create_callback(changeset, _form) do
+  def modify_changeset(changeset, _form) do
     changeset
+    |> Ecto.Changeset.add_error(:title, "twoja stara")
+    |> Ecto.Changeset.add_error(:title, "pierze w rzece")
     |> cast_attachments(changeset.params, [:image])
   end
 

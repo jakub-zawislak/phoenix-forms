@@ -23,15 +23,22 @@ defmodule App.UserType do
       professor: "Professor",
     ])
     |> add(:money, :text_input, custom_value: fn value ->
-      value && value != "" && (value.amount / 100)
-      |> to_string
-      |> String.slice(0..-3)
+      cond do
+        !value ->
+          ""
+        is_bitstring(value) ->
+          value
+        true ->
+          (value.amount / 100)
+          |> to_string
+          |> String.slice(0..-3)
+      end
     end)
     # |> add(:department_id, SelectAssoc, label: "Dział", phoenix_opts: [
     #   prompt: "Wybierz dział"
     # ])
     # |> add(:user_info, App.UserInfoType)
-    # |> add(:user_addresses, App.UserAddressType)
+    |> add(:user_addresses, App.UserAddressType)
     # |> add(:user_accounts, App.UserAccountType, delete_field: :removed, filter: fn item ->
     #   !item.removed
     # end)
@@ -42,11 +49,10 @@ defmodule App.UserType do
   def validator, do: Formex.Ecto.ChangesetValidator
   # def validator, do: Formex.Validator.Simple
 
-  def changeset_validation(changeset, _form) do
+  def modify_changeset(changeset, _form) do
     changeset
-    # |> add_error(:first_name, "yy\n!!")
-    # |> add_error(:first_name, "ee ee")
-    # |> add_error(:last_name, "aaa")
+    |> Ecto.Changeset.add_error(:first_name, "ss")
+    # |> Ecto.Changeset.add_error(:first_name, "pierze w rzece")
   end
 
 end

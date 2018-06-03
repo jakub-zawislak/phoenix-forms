@@ -6,4 +6,9 @@ defmodule App.UserAddressTagType do
     form
     |> add(:name, :text_input, label: "Nazwa", validation: [presence: :true])
   end
+
+  # def modify_changeset(changeset, _form) do
+  #   changeset
+  #   |> Ecto.Changeset.add_error(:name, "ss tag")
+  # end
 end

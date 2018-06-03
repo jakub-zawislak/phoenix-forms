@@ -12,7 +12,7 @@ defmodule App.UserInfoType do
 
   end
 
-  def changeset_after_create_callback( changeset ) do
+  def modify_changeset( changeset ) do
     changeset
   end
 
