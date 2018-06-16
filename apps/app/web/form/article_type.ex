@@ -55,8 +55,8 @@ defmodule App.ArticleType do
 
   def modify_changeset(changeset, _form) do
     changeset
-    |> Ecto.Changeset.add_error(:title, "twoja stara")
-    |> Ecto.Changeset.add_error(:title, "pierze w rzece")
+    # |> Ecto.Changeset.add_error(:title, "twoja stara")
+    # |> Ecto.Changeset.add_error(:title, "pierze w rzece")
     |> cast_attachments(changeset.params, [:image])
   end
 

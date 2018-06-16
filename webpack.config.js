@@ -42,9 +42,9 @@ module.exports = {
     modules: [ "node_modules", "apps", __dirname + "/web/static/js" ] // eslint-disable-line no-undef
   },
 
-  externals: {
-    jquery: 'jQuery'
-  },
+  // externals: {
+  //   jquery: 'jQuery'
+  // },
 
   plugins: [
     // new CopyWebpackPlugin([{ from: "./web/static/assets" }]),

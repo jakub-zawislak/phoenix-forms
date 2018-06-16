@@ -53,6 +53,8 @@ defmodule App.UserController do
   def update(conn, %{"id" => id, "user" => user_params}) do
     user = Repo.get!(User, id)
 
+    # IO.inspect user_params
+
     App.UserType
     |> create_form(user, user_params)
     |> update_form_data
