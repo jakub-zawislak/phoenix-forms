@@ -36,20 +36,22 @@ defmodule App.Mixfile do
   defp deps do
     [{:phoenix, "~> 1.3.2"},
      {:phoenix_pubsub, "~> 1.0"},
-     {:phoenix_ecto, "~> 3.3"},
+     {:phoenix_ecto, "~> 4.0"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.10"},
      {:phoenix_live_reload, "~> 1.1", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:ecto, "~> 2.1"},
+     {:ecto, "~> 3.0"},
+     {:ecto_sql, "~> 3.0"},
      {:formex, in_umbrella: true, override: true},
      {:formex_vex, in_umbrella: true},
      {:formex_ecto, in_umbrella: true},
-     {:money, "~> 1.2.1"},
+     {:money, "~> 1.3.1"},
      {:validex, "~> 0.1.0"},
-     {:arc, "~> 0.8.0"},
-     {:arc_ecto, "~> 0.7.0"},
+     {:arc, "~> 0.11.0"},
+     {:arc_ecto, "~> 0.11.1"},
+     {:plug_cowboy, "~> 1.0"},
     ]
   end
 
