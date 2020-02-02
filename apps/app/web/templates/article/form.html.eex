@@ -14,13 +14,33 @@
     </div>
   <% end %>
 
-  <%= formex_rows f %>
-  <%# formex_row f, :name, template_options: [
+  <%# <%= formex_rows f %>
+  <%= formex_row f, :title, template_options: [
     left_column: "col-xs-4",
     right_column: "col-xs-8"
   ] %>
-  <%# formex_row f, :content %>
-  <%# formex_row f, :category_id %>
-  <%# formex_row f, :save %>
+  <%= formex_row f, :content %>
+  <%= formex_row f, :image %>
+  <%#= formex_row f, :category_id %>
+  <%#= formex_row f, :tags %>
+  <%#= formex_row f, :visible %>
+
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+      <a href="#accounts" data-toggle="tab">
+        Komcie
+      </a>
+    </li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="accounts">
+      <div class="form-horizontal">
+        <%= formex_collection f, :comments, template: Formex.Template.BootstrapHorizontal %>
+      </div>
+    </div>
+  </div>
+
+  <%= formex_row f, :save %>
+
 
 <% end %>

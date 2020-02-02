@@ -1,3 +1,4 @@
+<%# <% IO.inspect @form %> %>
 <%= formex_form_for @form, @action, fn f -> %>
   <%= if @form.valid? do %>
     <div class="alert alert-danger">

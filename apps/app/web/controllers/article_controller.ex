@@ -38,6 +38,19 @@ defmodule App.ArticleController do
 
   def edit(conn, %{"id" => id}) do
     article = Repo.get!(Article, id)
+    # |> Repo.preload(:comments)
+
+    # article = Map.put(article, :comments, article.comments ++ [
+    #   %App.Comment{
+    #     content: "default content of new comment", # optional
+    #     formex_id: "some-unique-value" # sorry, but it is required. you must provide some unique id.
+    #   },
+    #   %App.Comment{
+    #     content: "default content of yet another new comment",
+    #     formex_id: "some-unique-value-2"
+    #   }
+    # ])
+
 
     # IO.inspect Ecto.Changeset.change(article).data.__meta__.state
     # IO.inspect Ecto.Changeset.change(%Article{}).data.__meta__.state
