@@ -27,10 +27,10 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-loader": "^6.4.1",
+    "babel-loader": "^9.1.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "webpack": "^2.7.0"
+    "webpack": "^5.75.0"
   },
   "author": "Jakub Zawiślak",
   "license": "MIT"
